@@ -1,0 +1,18 @@
+{
+  "oracle_migrations": 12,
+  "oracle_bootstrap": true,
+  "oracle_seed_scripts": 2,
+  "oracle_verification_scripts": 3,
+  "sqlite_directory_absent": true,
+  "backend_feature_modules": 22,
+  "invalid_csharp_multiline_raw_literals": 0,
+  "backend_csharp_files": 101,
+  "frontend_page_routes": 39,
+  "mobile_screen_files": 46,
+  "frontend_package_lock": false,
+  "mobile_package_lock": false,
+  "sdk_available_locally": false,
+  "sdk_version": null,
+  "all_files": 402,
+  "problems": []
+}

@@ -1,0 +1,16 @@
+ 'use client';
+import {useState} from 'react';
+import Link from 'next/link';
+import {api} from '@/lib/api/client';
+import {ActionForm,type FieldSpec} from './ActionForm';
+import {ImageUploader} from '@/components/ui/ImageUploader';
+export function ListingComposer({type}:{type:'adoption'|'sale'|'lost'}){
+ const [last,setLast]=useState(''),[info,setInfo]=useState(''),[fileId,setFileId]=useState('');
+ const adoption:FieldSpec[]=[{name:'petId',label:'Your pet ID',type:'number',required:true,min:1},{name:'title',label:'Listing headline',required:true},{name:'description',label:'Pet story and care needs',type:'textarea',required:true},{name:'generalArea',label:'General area (not an address)',required:true}];
+ const sale:FieldSpec[]=[...adoption,{name:'askingMinor',label:'Asking price (minor units)',type:'number',required:true,min:1},{name:'currency',label:'Currency',initial:'BDT',required:true},{name:'welfareEvidenceFileId',label:'Private welfare evidence file ID',type:'number',required:true,min:1}];
+ const lost:FieldSpec[]=[{name:'category',label:'Category',type:'select',required:true,options:[{value:'LOST',label:'Lost'},{value:'FOUND',label:'Found'}]},{name:'species',label:'Species',required:true},{name:'description',label:'Description',required:true,type:'textarea'},{name:'generalArea',label:'Approximate area',required:true},{name:'observedAt',label:'Last observed at',required:true,type:'datetime-local'}];
+ const path=type==='adoption'?'/adoptions':type==='sale'?'/marketplace/pets':'/lost-found';
+ const fields=type==='adoption'?adoption:type==='sale'?sale:lost;
+ async function submit(){if(!last)return;setInfo('');try{await api(`${path}/${last}/submit`,{method:'POST',body:{}});setInfo('Submitted for review. Only approved records become public.');}catch(e){setInfo(e instanceof Error?e.message:'Unable to submit for review.');}}
+ return <div className="panel"><ActionForm title={type==='adoption'?'Create adoption listing':type==='sale'?'Create pet sale draft':'Create lost/found report'} description={type==='sale'?'Approved seller capability and reviewed welfare evidence are required. Final sales are disabled.':'New posts remain drafts until moderation approves them.'} path={path} fields={fields} transform={v=>type==='lost'?{...v,observedAt:new Date(v.observedAt).toISOString()}:type==='sale'?{...v,petId:Number(v.petId),askingMinor:Number(v.askingMinor),welfareEvidenceFileId:Number(v.welfareEvidenceFileId)}:{...v,petId:Number(v.petId)}} onSuccess={x=>{const r=x as {id?:string|number};setLast(String(r?.id??''));setInfo('Draft saved.');}} submitLabel="Save draft"/>{type==='sale'&&<div style={{marginTop:25}}><h3>Welfare evidence</h3><ImageUploader onUploaded={setFileId}/>{fileId&&<p className="hint">Private file ID: {fileId}. Enter this value in the evidence field above.</p>}</div>}{last&&<div className="safety-note"><p role="status">Draft #{last}. {info}</p>{type!=='lost'&&<button type="button" className="btn btn-secondary" onClick={()=>void submit()}>Submit for review</button>}{type==='lost'&&<p className="hint">The current backend has no separate lost/found submit endpoint; drafts require staff moderation before publication.</p>}</div>}{!last&&info&&<p role="status">{info}</p>}</div>;
+}

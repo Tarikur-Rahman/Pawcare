@@ -1,0 +1,103 @@
+SQL> 
+SQL> PROMPT === DATABASE IDENTITY ===
+=== DATABASE IDENTITY ===
+SQL> 
+SQL> SHOW USER
+USER is "PAWCARE_APP"
+SQL> SHOW CON_NAME
+
+CON_NAME
+------------------------------
+FREEPDB1
+SQL> 
+SQL> SELECT SYS_CONTEXT('USERENV','SESSION_USER') AS SESSION_USER,
+  2         SYS_CONTEXT('USERENV','CURRENT_SCHEMA') AS CURRENT_SCHEMA,
+  3         SYS_CONTEXT('USERENV','CON_NAME') AS CON_NAME
+  4  FROM dual;
+
+SESSION_USER
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CURRENT_SCHEMA
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CON_NAME
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PAWCARE_APP
+PAWCARE_APP
+FREEPDB1
+
+
+SQL> 
+SQL> PROMPT === MIGRATION LEDGER ===
+=== MIGRATION LEDGER ===
+SQL> 
+SQL> SELECT *
+  2  FROM schema_migrations
+  3  ORDER BY migration_version;
+
+MIGRATION_VERSION                DESCRIPTION
+-------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+PROVIDER         CHECKSUM_SHA256                                                  APPLIED_AT
+---------------- ---------------------------------------------------------------- ---------------------------------------------------------------------------
+V001                             Core care: seven original tables
+ORACLE           fef2db2ea4e267789fda1d6307d2ac87d98156355b16d190bd602e10d62b15e1 06-NOV-26 09.37.34.087661 PM +06:00
+
+
+SQL> 
+SQL> PROMPT === TABLE INVENTORY ===
+=== TABLE INVENTORY ===
+SQL> 
+SQL> SELECT COUNT(*) AS TOTAL_TABLES
+  2  FROM user_tables;
+
+TOTAL_TABLES
+------------
+           8
+
+SQL> 
+SQL> SELECT table_name
+  2  FROM user_tables
+  3  ORDER BY table_name;
+
+TABLE_NAME
+--------------------------------------------------------------------------------------------------------------------------------
+APPOINTMENTS
+CARE_TASKS
+EXPENSES
+MEDICATIONS
+PETS
+SCHEMA_MIGRATIONS
+USERS
+VACCINATIONS
+
+8 rows selected.
+
+SQL> 
+SQL> PROMPT === OBJECT INVENTORY ===
+=== OBJECT INVENTORY ===
+SQL> 
+SQL> SELECT object_type, status, COUNT(*) AS OBJECT_COUNT
+  2  FROM user_objects
+  3  GROUP BY object_type, status
+  4  ORDER BY object_type, status;
+
+OBJECT_TYPE             STATUS  OBJECT_COUNT
+----------------------- ------- ------------
+INDEX                   VALID             26
+LOB                     VALID              1
+SEQUENCE                VALID              7
+TABLE                   VALID              8
+TRIGGER                 VALID              7
+
+SQL> 
+SQL> PROMPT === INVALID OBJECTS ===
+=== INVALID OBJECTS ===
+SQL> 
+SQL> SELECT object_name, object_type, status
+  2  FROM user_objects
+  3  WHERE status <> 'VALID'
+  4  ORDER BY object_type, object_name;
+
+no rows selected
+
+SQL> 
+SQL> SPOOL OFF

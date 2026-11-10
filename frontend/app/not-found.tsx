@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function NotFound(){return <main id="main-content" className="center-screen"><div className="empty-illustration">🐾</div><p className="eyebrow">404 · PAGE NOT FOUND</p><h1>We couldn't find that trail.</h1><p>The page may have moved or the listing is no longer available.</p><Link className="btn btn-primary" href="/">Back home</Link></main>;}

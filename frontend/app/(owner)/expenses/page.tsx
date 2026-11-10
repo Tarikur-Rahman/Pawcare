@@ -1,0 +1,1 @@
+import {ExpensesWorkspace} from '@/components/features/ExpensesWorkspace';export default function Page(){return <ExpensesWorkspace/>;}

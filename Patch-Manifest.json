@@ -1,0 +1,117 @@
+[
+  {
+    "path": "backend/PawCare.Api/Infrastructure/Database/MigrationRunner.cs",
+    "originalSha256": "e1365d059b7e90b37bedd36911c8386393b00a17a9fd73fa19732b7023479214",
+    "patchSha256": "039f9d63097186b2ad07f37e57e1111251f6eb085edfa6477365096bb9ba85af"
+  },
+  {
+    "path": "backend/PawCare.Api/Modules/Auth/AuthContracts.cs",
+    "originalSha256": "1480c9a85c6c92c911e8f6701099da46f53aa80c748589546a02bd5fc16b1d2a",
+    "patchSha256": "6a2771b51182c5608fac050707aebba3c48d3414a50c23d77acf82e333666022"
+  },
+  {
+    "path": "backend/PawCare.Api/Modules/Auth/AuthEndpoints.cs",
+    "originalSha256": "0afc3b94f7cbc8cc17ff67091da23eece5cd67baabdc170a437edd61e10aad3a",
+    "patchSha256": "90143a38929344e907fc11ebb497a6a7262b458648ad66c41da240f2d1e171cd"
+  },
+  {
+    "path": "backend/PawCare.Api/Modules/Auth/AuthRepository.cs",
+    "originalSha256": "9125be140dc44a1c375b80be640003fd3ac81b0de78df1c16adbb32fc0e24e29",
+    "patchSha256": "ce954ac2e6905ab55d6f9bb585a503e5024063b5a81bebf6d2ceabc023a3c98a"
+  },
+  {
+    "path": "backend/PawCare.Api/Modules/Auth/AuthService.cs",
+    "originalSha256": "f724f69f11e5c7f2056ee971409dc4be001da8ec917a3d770360ee1206594f36",
+    "patchSha256": "88a2d3e9e82bed6bbda44f0c8e30b6b6cad462af97492fc7e1fb88cb2e62b63a"
+  },
+  {
+    "path": "backend/PawCare.Api/Modules/Auth/PasswordResetDispatcher.cs",
+    "originalSha256": null,
+    "patchSha256": "069a7632cf2363925e8dda30cce20b8728183ad0def23ef7c7c06f4b0fa5bfff"
+  },
+  {
+    "path": "backend/PawCare.Api/Modules/Auth/PasswordResetPolicy.cs",
+    "originalSha256": null,
+    "patchSha256": "2098e780da32fb5152d05a1854ba6e3f96bb0c640c88e33cf4507904002810ad"
+  },
+  {
+    "path": "backend/PawCare.Api/Program.cs",
+    "originalSha256": "a92df294cfaf3644383d1f7cd5fa7f2c96a3e9a16b008dee49186da512fad14f",
+    "patchSha256": "3917a3f337c5c0fbfab1ecbf6bba09b0177826c6deee7de956ab8a9e89bec56b"
+  },
+  {
+    "path": "backend/PawCare.Api.Tests/PasswordResetTests.cs",
+    "originalSha256": null,
+    "patchSha256": "aa9cfdc04f65377daaa754efcf1daa559754fd39da0032ff3f0256f02a6aa28c"
+  },
+  {
+    "path": "backend/PawCare.IntegrationTests/SqlProviderParityTests.cs",
+    "originalSha256": "b9d790ba3f52b136f3e71705a4771c86176c730303697c60f426bbcdc4c9d338",
+    "patchSha256": "526a7f80cfbe0e5c055fe0c4af9faaca3d71eee33bf5ac069d30c1b25f0fe31b"
+  },
+  {
+    "path": "database/oracle/deployment/apply_v014_only.sql",
+    "originalSha256": null,
+    "patchSha256": "7bdccd0206251a771dcf2ad53d00813bced158e0db79891597e64f99f9401dcc"
+  },
+  {
+    "path": "database/oracle/deployment/preflight_v014_read_only.sql",
+    "originalSha256": null,
+    "patchSha256": "c833e922b3f7a46699c1192cbb15d166d3d6c5c04c785a6d55f643e4de8c5939"
+  },
+  {
+    "path": "database/oracle/deployment/verify_v014.sql",
+    "originalSha256": null,
+    "patchSha256": "145f28802f5b466564a3d10903c1e6b657f75243baeddbbde6b6f88dbdf3d1bf"
+  },
+  {
+    "path": "database/oracle/migrations/V014_password_recovery.sql",
+    "originalSha256": null,
+    "patchSha256": "b4beff0460a1168f978bb3f519f00863190ddc72acae6718a5773931c48a1386"
+  },
+  {
+    "path": "docs/PASSWORD_RECOVERY_V014.md",
+    "originalSha256": null,
+    "patchSha256": "3ec70d4d5ed43f33b6ae4f8ad65b0a4040169ae56b9fa8a4a9d35c9d24c9a0fe"
+  },
+  {
+    "path": "frontend/AUTHENTICATION.md",
+    "originalSha256": "7735d51837dd28f291e5d71a1d984828ab543bc8a4e4fba676da3f92efbe1522",
+    "patchSha256": "5d9cb160b3abc5ff29a5e8e72bc6eb7c2feccf332ef82eda5fbfe6b2d4ab9aa6"
+  },
+  {
+    "path": "frontend/app/(auth)/forgot-password/page.tsx",
+    "originalSha256": "e733a2e1aa21c0887d7c8b9fdfa51de9a53aece297ba1f9538bc1cb176f3e30f",
+    "patchSha256": "7e9289f9fd4a900f4e1b78f5044dd538824b9ee7902570fd77faf71758c42b4e"
+  },
+  {
+    "path": "frontend/app/(auth)/reset-password/page.tsx",
+    "originalSha256": null,
+    "patchSha256": "a1ce50fcbbc9bf156375324af83acf6bf8f745a290f7c33195ba4802f8e34c53"
+  },
+  {
+    "path": "frontend/app/api/auth/[action]/route.ts",
+    "originalSha256": "57ae246395437afe80934f76aeb4aad401944209f966858997f4c1e26bf54a06",
+    "patchSha256": "560fe495f20e2f6fab9959d3f5a6f6209755c1b1e4edd3b07f7a915815b1a7ba"
+  },
+  {
+    "path": "frontend/components/features/AuthForms.tsx",
+    "originalSha256": "9fd24d3811ea586dfddb220fb4f64aca34e9f0609678727c06d7ab24b29cf2ce",
+    "patchSha256": "1d501c2da8633850b92ff640e2cb71e427885dc347095df0f96336705b13c10b"
+  },
+  {
+    "path": "frontend/lib/api/client.ts",
+    "originalSha256": "47a2de443028bf3d138439d8243b0c2d493f05320ee6591fa18189e2d03da14a",
+    "patchSha256": "6550d3157dd4181ea539ce7479ed9b27fd30da91b756cdee158443947a56ada2"
+  },
+  {
+    "path": "frontend/tests/password-reset.test.tsx",
+    "originalSha256": null,
+    "patchSha256": "329cb2a8f90ef12e3590c6019111b45a9c0d165db9847b21f2f05a77f7d7e332"
+  },
+  {
+    "path": "frontend/tests/routes.test.ts",
+    "originalSha256": "fe1192339d8f9b1030de46ff1f489c7973405c3cee2baed015567881f6149bcb",
+    "patchSha256": "07db6949bd141db7e740278ac419562765734528492242103571332d8ab567d7"
+  }
+]

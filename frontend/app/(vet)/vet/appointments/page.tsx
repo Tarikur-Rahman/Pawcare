@@ -1,0 +1,1 @@
+import {BookingWorkspace} from '@/components/features/BookingWorkspace';export default function Page(){return <BookingWorkspace vet/>;}

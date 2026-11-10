@@ -1,0 +1,1 @@
+export default function Loading(){return <main id="main-content" className="center-screen"><div className="spinner" aria-label="Loading" role="status"/><p>Preparing your PawCare experience…</p></main>;}

@@ -1,0 +1,3 @@
+'use client';
+import {ResourceBoard,columnsFrom} from '@/components/features/ResourceBoard';
+export default function Page(){return <ResourceBoard title="Store order & payment report" subtitle="Currency-level order counts, order values and verified captured payments. Placed orders do not automatically represent received revenue; the current backend does not expose daily breakdowns." path="/reports/store-sales" columns={columnsFrom([['currency','Currency'],['orderCount','Orders placed'],['orderValueMinor','Order total (minor units)'],['verifiedCapturedMinor','Verified captured (minor units)']])}/>;}

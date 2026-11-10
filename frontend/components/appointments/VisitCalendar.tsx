@@ -1,0 +1,5 @@
+ 'use client';
+import {useState} from 'react';
+import {Button} from '@/components/ui/Button';
+export function VisitCalendar({onChoose}:{onChoose:(startsAt:string,endsAt:string)=>void}){const [date,setDate]=useState(''),[time,setTime]=useState('09:00');function select(){const d=new Date(`${date}T${time}`);if(Number.isNaN(d.getTime())||d.getTime()<Date.now())return;onChoose(d.toISOString(),new Date(d.getTime()+30*60_000).toISOString());}
+return <div className="calendar-form"><label className="form-field">Visit date <input className="form-input" min={new Date().toISOString().slice(0,10)} type="date" value={date} onChange={e=>setDate(e.target.value)}/></label><label className="form-field">Preferred time <input className="form-input" type="time" value={time} onChange={e=>setTime(e.target.value)}/></label><p className="hint">Times use your device time zone. Availability is confirmed by the server when booking.</p><Button type="button" disabled={!date} onClick={select}>Use this time</Button></div>;}

@@ -1,0 +1,504 @@
+PawCare | Interactive migration orchestration started.
+PawCare | Credentials are not accepted by this script and are not logged.
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+PawCare | Applying V002 ...
+PawCare | V002 preflight ...
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+PawCare | V002 postflight ...
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+PawCare | V002 complete.
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+PawCare | Applying V003 ...
+PawCare | V003 preflight ...
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+PawCare | V003 postflight ...
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+PawCare | V003 complete.
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+PawCare | Applying V004 ...
+PawCare | V004 preflight ...
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+PawCare | V004 postflight ...
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+PawCare | V004 complete.
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+PawCare | Applying V005 ...
+PawCare | V005 preflight ...
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+PawCare | V005 postflight ...
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+PawCare | V005 complete.
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+PawCare | Applying V006 ...
+PawCare | V006 preflight ...
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+PawCare | V006 postflight ...
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+PawCare | V006 complete.
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+PawCare | Applying V007 ...
+PawCare | V007 preflight ...
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+PawCare | V007 postflight ...
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+PawCare | V007 complete.
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+PawCare | Applying V008 ...
+PawCare | V008 preflight ...
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+PawCare | V008 postflight ...
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+PawCare | V008 complete.
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+PawCare | Applying V009 ...
+PawCare | V009 preflight ...
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+PawCare | V009 postflight ...
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+PawCare | V009 complete.
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+PawCare | Applying V010 ...
+PawCare | V010 preflight ...
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+PawCare | V010 postflight ...
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+PawCare | V010 complete.
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+PawCare | Applying V011 ...
+PawCare | V011 preflight ...
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+PawCare | V011 postflight ...
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+PawCare | V011 complete.
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+PawCare | Applying V012 ...
+PawCare | V012 preflight ...
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+PawCare | V012 postflight ...
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+PawCare | V012 complete.
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+PawCare | Applying reference seed only ...
+PawCare | Reference data preflight ...
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+PawCare | Reference data seeded (insert-only; safe to rerun).
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+PawCare | Running foreign-key verification ...
+PawCare | Checking foreign-key definitions and enforcement ...
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+PawCare | Running index verification ...
+PawCare | Checking explicit indexes, uniqueness, usability ...
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+PawCare | Running reference-seed verification ...
+PawCare | Checking reference data and optional development fixture ...
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+PawCare | Interactive migration orchestration completed successfully.

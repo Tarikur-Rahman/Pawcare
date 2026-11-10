@@ -1,0 +1,16 @@
+OPERATION: 00_preflight
+STATE: Database state was not intentionally modified by this operation; inspect the evidence if authentication or execution was abnormal.
+
+SQL*Plus: Release 23.26.3.0.0 - Production on Sat Nov 7 07:21:53 2026
+
+Copyright (c) 1982, 2026, Oracle.  All rights reserved.
+
+Version 23.26.3.0.0
+SQL> SQL> SQL> Enter password: SP2-0306: Invalid option.
+Help: https://docs.oracle.com/error-help/db/sp2-0306/
+Usage: CONN[ECT] [{logon|/|proxy} [AS {SYSDBA|SYSOPER|SYSASM|SYSBACKUP|SYSDG|SYSKM|SYSRAC}] [edition=value]]
+where <logon> ::= <username>[/<password>][@<connect_identifier>]
+      <proxy> ::= <proxyuser>[<username>][/<password>][@<connect_identifier>]
+SQL> SP2-0640: Not connected
+Help: https://docs.oracle.com/error-help/db/sp2-0640/
+SQL> 

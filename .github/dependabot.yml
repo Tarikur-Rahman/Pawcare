@@ -1,0 +1,53 @@
+# PawCare automated dependency update pull requests.
+# Add the application manifests/lockfiles as each module is implemented.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+      time: '04:00'
+      timezone: Etc/UTC
+    open-pull-requests-limit: 5
+    labels: [dependencies, ci]
+
+  - package-ecosystem: nuget
+    directories:
+      - /backend/PawCare.Api
+      - /backend/PawCare.Api.Tests
+      - /backend/PawCare.IntegrationTests
+    schedule:
+      interval: weekly
+      day: monday
+      time: '04:30'
+      timezone: Etc/UTC
+    open-pull-requests-limit: 5
+    labels: [dependencies, backend]
+    groups:
+      nuget-minor-patch:
+        update-types: [minor, patch]
+
+  - package-ecosystem: npm
+    directory: /frontend
+    schedule:
+      interval: weekly
+      day: tuesday
+      time: '04:00'
+      timezone: Etc/UTC
+    open-pull-requests-limit: 5
+    labels: [dependencies, web]
+    groups:
+      web-minor-patch:
+        update-types: [minor, patch]
+
+  - package-ecosystem: npm
+    directory: /mobile
+    schedule:
+      interval: weekly
+      day: tuesday
+      time: '04:30'
+      timezone: Etc/UTC
+    open-pull-requests-limit: 5
+    labels: [dependencies, mobile]
+    # Keep Expo, React Native and related SDK updates individually reviewable.

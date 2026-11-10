@@ -1,0 +1,2026 @@
+{
+  "sha256_manifest_version": 13,
+  "file_count": 404,
+  "files": [
+    {
+      "path": ".github/dependabot.yml",
+      "size": 1343,
+      "sha256": "ec9e2571e19038eeff63cd9a98c2c4372a591f7d5a4a1fd231644b7850bba48a"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 5060,
+      "sha256": "5591594bc5f856807fb94c8dfcc08cb56aef7a2821d2335c7b6cd62abfcd738e"
+    },
+    {
+      "path": ".github/workflows/security.yml",
+      "size": 5625,
+      "sha256": "875feeaaff69c209408fcb5a79b0f6f06dd1aff7d87cbdb84d883e23270aad58"
+    },
+    {
+      "path": ".gitignore",
+      "size": 450,
+      "sha256": "0be20814ca0448e68292b14958e898feaf440cd2791752e7d4e293dd48b5e748"
+    },
+    {
+      "path": "README.md",
+      "size": 5045,
+      "sha256": "9f515c98897a30c7b88e3b4fcb36d797e999b0be5abd711663671369ed21c9a8"
+    },
+    {
+      "path": "backend/FEATURE_MODULES_INTEGRATION.md",
+      "size": 8134,
+      "sha256": "23cd2edcf0f63488eb36c04a9c9433bd9a014ddb461f20301138b2327163d7db"
+    },
+    {
+      "path": "backend/PawCare.Api.Tests/AdoptionHandoverTests.cs",
+      "size": 3846,
+      "sha256": "ac9140f95d37957c729db1584a339f72b2f71f5a08cc5dfb8134572249be67ae"
+    },
+    {
+      "path": "backend/PawCare.Api.Tests/AuthTests.cs",
+      "size": 14710,
+      "sha256": "2ff80dd791d7589a5c916919088f30c21445dc654b3b57dbaf371f3324d10be8"
+    },
+    {
+      "path": "backend/PawCare.Api.Tests/AuthorizationTests.cs",
+      "size": 7133,
+      "sha256": "09e731ec3ffacbbed2d0492d6b22650e6b171ef5d817df367d45e19121ae8fe7"
+    },
+    {
+      "path": "backend/PawCare.Api.Tests/BookingConcurrencyTests.cs",
+      "size": 2310,
+      "sha256": "8af54a568308eeee1a1177da4fb0b60c6b6c8fa42d41d42295e4d9a855d8d776"
+    },
+    {
+      "path": "backend/PawCare.Api.Tests/ModerationTests.cs",
+      "size": 4664,
+      "sha256": "b1811fa365422fbf0bfad59bb5e9599743640bcbe879e066b3930c2e158d8c04"
+    },
+    {
+      "path": "backend/PawCare.Api.Tests/OrderInventoryTests.cs",
+      "size": 4642,
+      "sha256": "00998fde8cc8b804dc69baccdf952a067ceaa2fcb0f3b589aa33b6b45165c878"
+    },
+    {
+      "path": "backend/PawCare.Api.Tests/PawCare.Api.Tests.csproj",
+      "size": 673,
+      "sha256": "3b93a0d4fbe9fdfdd0792a1b52d88c291f76a4ad2979cd86dace182866c5dcb4"
+    },
+    {
+      "path": "backend/PawCare.Api/.env.example",
+      "size": 1443,
+      "sha256": "56b26a288cebe536f6d3eca3d98ed389e1a88ef7a5adcda698923cf2e3761d6c"
+    },
+    {
+      "path": "backend/PawCare.Api/Common/ApiResult.cs",
+      "size": 2881,
+      "sha256": "832b0df2a4f27231aadc52d9f7735733fa32d57747d98bd2121ccbf5b5648e01"
+    },
+    {
+      "path": "backend/PawCare.Api/Common/DomainErrors.cs",
+      "size": 3691,
+      "sha256": "6afb46b89a6ed2367bb27154a5dcfaf6b0a7705418ffb73317064dad91b78e8a"
+    },
+    {
+      "path": "backend/PawCare.Api/Common/Pagination.cs",
+      "size": 2550,
+      "sha256": "f9908264b3b4e2233910c06bca706e71c615f46ca7ea51dd4bd46ac71ff4da83"
+    },
+    {
+      "path": "backend/PawCare.Api/Common/Validators.cs",
+      "size": 5443,
+      "sha256": "bfd3e7ba3be0a5e63fd46e56bb17ab356cb9a37341a881d71bd19809548e950b"
+    },
+    {
+      "path": "backend/PawCare.Api/Configuration/Options.cs",
+      "size": 1993,
+      "sha256": "1e52426559a840295a83a58ae9d3daec2e08a47743d3695a1c5cfe0f49cd7c1b"
+    },
+    {
+      "path": "backend/PawCare.Api/Configuration/ServiceRegistration.cs",
+      "size": 5943,
+      "sha256": "7e70599be4717d33e3506ea782ef7808c9477ad5baf594b998fbec2df58c8982"
+    },
+    {
+      "path": "backend/PawCare.Api/Dockerfile",
+      "size": 1008,
+      "sha256": "261c757a657412c60dcac6851adee4423b19abef06e623ecad4d0ae2d8c6b54e"
+    },
+    {
+      "path": "backend/PawCare.Api/Infrastructure/Clock/SystemClock.cs",
+      "size": 843,
+      "sha256": "49746b40ca88ba14ff1d17ccf5d0124abc31d0a32a5c76bbd236b755e92a59f9"
+    },
+    {
+      "path": "backend/PawCare.Api/Infrastructure/Database/DbConnectionFactory.cs",
+      "size": 1570,
+      "sha256": "26f70a1b7481adf9494f46c465682d156f3b45e50bae4a5953175a7ade484c21"
+    },
+    {
+      "path": "backend/PawCare.Api/Infrastructure/Database/MigrationRunner.cs",
+      "size": 8200,
+      "sha256": "79bd2482b4b1b152b255bcc39d703cfbdc8232323c8f2eaaf0918860312a27c0"
+    },
+    {
+      "path": "backend/PawCare.Api/Infrastructure/Database/ParameterizedSql.cs",
+      "size": 4162,
+      "sha256": "84a0254bcab0d6a210e671c4abb5709875678a96e480ab8e19acda72a205acf6"
+    },
+    {
+      "path": "backend/PawCare.Api/Infrastructure/Database/SqlTransactionRunner.cs",
+      "size": 2709,
+      "sha256": "b4a29ca82fbc084b72e6b3bdd256e61d1ec79a8d92595d702259e1c7660f7d21"
+    },
+    {
+      "path": "backend/PawCare.Api/Infrastructure/Email/EmailGateway.cs",
+      "size": 4163,
+      "sha256": "9020cee5f5b6f3d69115a456ece805243c2597a93600c388fa48830bd9bcab56"
+    },
+    {
+      "path": "backend/PawCare.Api/Infrastructure/Notifications/PushGateway.cs",
+      "size": 7821,
+      "sha256": "dc3559cbbd9cca777665e605b5cf9ed8b3a453a3160ca7aa59f78b4590db487e"
+    },
+    {
+      "path": "backend/PawCare.Api/Infrastructure/Payments/PaymentGateway.cs",
+      "size": 3060,
+      "sha256": "a35833de7e137ef7c34ee2752c389b5ba0c52e23cd49b9153fb68716b57eb910"
+    },
+    {
+      "path": "backend/PawCare.Api/Infrastructure/Storage/ObjectStorage.cs",
+      "size": 9126,
+      "sha256": "7337d8a894a2fa1e073601646c6ff6258aceaef119ed29e05dace56d5b5d6a9e"
+    },
+    {
+      "path": "backend/PawCare.Api/Middleware/AuditMiddleware.cs",
+      "size": 3844,
+      "sha256": "76e29b54d47b3e93d44f463a1c34f82ba43aa1c2a41b70ab0754c64034983fcf"
+    },
+    {
+      "path": "backend/PawCare.Api/Middleware/ErrorHandler.cs",
+      "size": 3737,
+      "sha256": "1b22ad754acb3951be84ca2c33912302c4b4116d513a6c9a0895e7a17e52d604"
+    },
+    {
+      "path": "backend/PawCare.Api/Middleware/RequestIdMiddleware.cs",
+      "size": 1461,
+      "sha256": "4ca8129b2dd7c5b2e11c79d72e0a5c564a0b7c960e83736d18523223032d2408"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Admin/AdminEndpoints.cs",
+      "size": 1087,
+      "sha256": "8660cae7528818aa97fab0dcbe63ebc11acd07992c6bc92a8435f42292becfcf"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Admin/AdminService.cs",
+      "size": 5345,
+      "sha256": "ee4624a2610fcdfbf61d5323de341e4d921aadfda6ead8508a59bc8ae29f53e7"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Adoption/AdoptionContracts.cs",
+      "size": 310,
+      "sha256": "64bed1e8e7dd8454ccb8033e0eea95abba5b5516359facac360cc038293794b2"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Adoption/AdoptionEndpoints.cs",
+      "size": 2127,
+      "sha256": "891bf4a0841381ac6c477306646b54b4c61c5c3c493e200a20bc5bf69847b4ee"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Adoption/AdoptionRepository.cs",
+      "size": 5924,
+      "sha256": "7b26204b2477de38e34180c89366609c1615ce997b57fb0b0f985efef9ee9637"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Adoption/AdoptionService.cs",
+      "size": 1821,
+      "sha256": "719d6f8cc2cf834da6535f3017f8893d3bbdf436874ff6cbedd4e606f44d9d43"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Adoption/HandoverService.cs",
+      "size": 3273,
+      "sha256": "ddf0a3a9e4530f45073307dade236a4b31e831dcd834f10661b911278938ac57"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Appointments/AppointmentEndpoints.cs",
+      "size": 1282,
+      "sha256": "ebdda304c49b38fe2ee948b98fb5fc6083b393c5693aab97257879f7d44a276a"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Appointments/BookingRepository.cs",
+      "size": 3263,
+      "sha256": "a4303676cfea66ac9571882fe84183868f7ebca6fa2ab135d12cb636f33ea89e"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Appointments/BookingService.cs",
+      "size": 1616,
+      "sha256": "adc6b47d69f40fc19e8888d02937d1740ae8c7590e99880098c95ba5bfea16bc"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Auth/AuthContracts.cs",
+      "size": 464,
+      "sha256": "9cdcb1bae1aba45434007da61c1942e18ef157a90fd71cd13735a264e47ac5b4"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Auth/AuthEndpoints.cs",
+      "size": 1546,
+      "sha256": "044a2b5c31e4a4dfb2c66c4bcdc5663c680028c75d77c80a6b9d0a294d81f436"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Auth/AuthRepository.cs",
+      "size": 3043,
+      "sha256": "1c100f5b69f061f78a4c0641d5deb8315f2f9742293bd8191618e2d68148cae9"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Auth/AuthService.cs",
+      "size": 3813,
+      "sha256": "51bc3f87522509c82c43036af332b01ad2c9bf1311d7f774937debd9a5d7cacd"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Auth/AuthValidation.cs",
+      "size": 743,
+      "sha256": "7997a5319d86b76d52d6a60f4049b3b6f37f1deca7067ed3f70a427e6e0a3a72"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Care/CareEndpoints.cs",
+      "size": 860,
+      "sha256": "075391b2ce0cfb136eaa15c961f8f4c81fb12bf87f304ce6a642abbabf9076b7"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Care/CareRepository.cs",
+      "size": 1801,
+      "sha256": "924a5d49388b036cd7c8459dc0e92779dbab070cb0ecccd0507233e7253c59dc"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Care/CareService.cs",
+      "size": 1544,
+      "sha256": "1d7813457909e9191d335f4cc48aa81a590e40e921e48f52e61686ec4fdc2b47"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Cart/CartEndpoints.cs",
+      "size": 573,
+      "sha256": "b933f95694305f5fdc7cbac541ee4e658391db61475e7891d3ac2db4b05a209e"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Cart/CartRepository.cs",
+      "size": 2510,
+      "sha256": "1dc8d50ccb9b30d1981293d3afbd1a1507439aa1fa9c98dd96cdc8b94c7354fc"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Cart/CartService.cs",
+      "size": 731,
+      "sha256": "6f6aadd37c98a7b745584c3602522370ac4687748f346ebbef61084d3a15fb50"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Catalog/CatalogEndpoints.cs",
+      "size": 1063,
+      "sha256": "39cfc718f572d5f130d80cb5a4d6ee8f292c868737b63c764849697098135391"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Catalog/CatalogRepository.cs",
+      "size": 2484,
+      "sha256": "1613979bb5085d620a74fe8bd64b9024cd084a683df3bbd8ab75885931a4224e"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Catalog/CatalogService.cs",
+      "size": 1358,
+      "sha256": "987a9cfa21791d3e43a2fe8ad8cc41efa797fc733d4e07621d41ad0dca7a784d"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Donations/DonationEndpoints.cs",
+      "size": 1051,
+      "sha256": "61d3f5ed0a83e590163846ae9e0a38f4700e9e0fb0e62fad32caee35500bb9bb"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Donations/DonationRepository.cs",
+      "size": 1224,
+      "sha256": "1b257c587f47c5257b2bd604dc6b268a7aac115fe676cdf0849131012dcf0d54"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Donations/DonationService.cs",
+      "size": 1770,
+      "sha256": "b939298f49a91561ab9741d1f39c56cb9b2c3ccbd184ac7fcb3dce58fd63ff90"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Expenses/ExpenseEndpoints.cs",
+      "size": 842,
+      "sha256": "192bf2eb488f0f5679c5d94bcdd80df98a59efa411a2385e37c33bfbd0ee0f6f"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Expenses/ExpenseRepository.cs",
+      "size": 1853,
+      "sha256": "5faa09db214a827d5791554472cf2b539c8b6db3edf542d50b95535120ea4c2c"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Expenses/ExpenseService.cs",
+      "size": 1691,
+      "sha256": "9e3230ba12dd80836e6c6139726bd85f98c66553ec849e55de868108ed40126e"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Fulfillment/FulfillmentService.cs",
+      "size": 3857,
+      "sha256": "7617679def0a5a0b6b13acf3a50943c17b4cc075b2648e781d1bb29caac3979a"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Fulfillment/ShipmentEndpoints.cs",
+      "size": 707,
+      "sha256": "b740b369963771a2bfee36c14b623406107ee35ff3f01a8d8a67f13b4f45525c"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Inventory/InventoryEndpoints.cs",
+      "size": 640,
+      "sha256": "7a35b3935974381a8e43a21a4639f32449f73dd349c4ba87b1fd8b23d20c8ca2"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Inventory/InventoryRepository.cs",
+      "size": 2250,
+      "sha256": "18512c9253559ffd86db2c2ba7dc918a56fb85cc35536353a49d2502cbc172f9"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Inventory/InventoryService.cs",
+      "size": 1199,
+      "sha256": "1777b5948630db0019d0cbe9d66e6e0ee981795f9aee1bce07a605c3d95a8acc"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/LostFound/LostFoundEndpoints.cs",
+      "size": 1805,
+      "sha256": "c8fb553839db5f18b851de716fcf3c1984a24edabac9d697ad7b6d5b0b2593ee"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/LostFound/LostFoundRepository.cs",
+      "size": 3580,
+      "sha256": "f3f8bdf0c3f4c3de332a482edbd477e843bf8672b075921fbc329e20c79a3f6b"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/LostFound/LostFoundService.cs",
+      "size": 4576,
+      "sha256": "c061c00300133d1b720f81e4998b3388946b7fdfa2b1f20190066cd669fe7bb3"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Marketplace/MarketplaceEndpoints.cs",
+      "size": 1700,
+      "sha256": "b0e0a855e6d67d131840fa1ea38641d33be3385207c5458f9b8c632bf7993d71"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Marketplace/MarketplaceRepository.cs",
+      "size": 4290,
+      "sha256": "9591f98f84d548f1d3f572fdd97fc034cb8850debd935ed256c80f949b745324"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Marketplace/MarketplaceService.cs",
+      "size": 2397,
+      "sha256": "810af1033e9711562b999765bd613b967a476122181558d48e258e82ed99bdc5"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Marketplace/SellerVerificationService.cs",
+      "size": 444,
+      "sha256": "709acdf1322520308bb65239d1ee1eb5c1461f5c42a02cb62ce3ce932318b057"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Media/MediaEndpoints.cs",
+      "size": 1314,
+      "sha256": "caf8d564083d64133723bf86e45c7f85e6baafdd3bb1efb323138b296308e7d9"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Media/MediaService.cs",
+      "size": 2127,
+      "sha256": "c0ad31a3a89849c128e116e9b7ea829fa023c4b07a6707d285c717772af225c3"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Medical/MedicalEndpoints.cs",
+      "size": 890,
+      "sha256": "eb4be76d377e6f3060298c0016094b8cc5b40a5eccc25daf15aa88b9c7de4b30"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Medical/MedicalRepository.cs",
+      "size": 2566,
+      "sha256": "430b4816cf1b83d3d16f0ae6123c91e22a8f00900daa39f8dd4bc192110f42b2"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Medical/MedicalService.cs",
+      "size": 1587,
+      "sha256": "53fdc808e4bdfe0da2e7a4669b2680d39282bfe92e170efe33540a1908d6ca5a"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Moderation/ModerationEndpoints.cs",
+      "size": 1608,
+      "sha256": "4b03b8bb21dc8dc9bf7af33713114aedd9c33dfbd6c3d96d9097797b7da711da"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Moderation/ModerationService.cs",
+      "size": 8978,
+      "sha256": "6cdfe3a59f1229aa4e64fad01e1f931ccce59e513d8c6e51154f2d0b183db4c8"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/ModuleRegistration.cs",
+      "size": 3644,
+      "sha256": "09570934c5135e5d5a2e2b87ac6c59eddaebce571c02d453dfc064d0f86744b5"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Notifications/NotificationEndpoints.cs",
+      "size": 679,
+      "sha256": "c5fa09703489dbe983455e87810df4b80c6b750ec15f7d40dbf89e1979a0eb14"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Notifications/NotificationService.cs",
+      "size": 925,
+      "sha256": "9c038c79edf6c648cb0945866ac13e86028aec7478f9d16b0af8ae3c0648b8c0"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Orders/CheckoutService.cs",
+      "size": 1533,
+      "sha256": "9bdc8fea2fbcd4b09e88f58e7829cf454e9425506c262c2cdbe63d0bbf965423"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Orders/OrderEndpoints.cs",
+      "size": 1010,
+      "sha256": "8bd50376f14b327bf04eac76ee04b42ef6c2d8c339d9b1a13db0b14f0f8abaac"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Orders/OrderRepository.cs",
+      "size": 8975,
+      "sha256": "e3c027bc8b7c320f3b41f3611dbc7dbaeee3fa4e6dcd51f2e0560933ac9dd4a1"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Payments/PaymentEndpoints.cs",
+      "size": 1702,
+      "sha256": "4c8d7590ff620f1542582f3c4ceee34daed0a945a6b34ac08850810d86a8b839"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Payments/PaymentService.cs",
+      "size": 6438,
+      "sha256": "efc4dc32aa1868d23c6f8e30ffedb2564ddfc15831f42bae71d79135e39c1ff8"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Payments/WebhookVerifier.cs",
+      "size": 1153,
+      "sha256": "a951d8e7972782fdd2eb232e910a648a5925a4c1fe82a42a43d69744a39d003e"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Pets/PetEndpoints.cs",
+      "size": 1075,
+      "sha256": "da911fe51764c0b7eaef9cc9ff0b82f2453c4174b91081cdce2ba3b90cc9fa14"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Pets/PetRepository.cs",
+      "size": 1880,
+      "sha256": "9a52bbcc750cf128914754029c4dbab3cba2ed0dfcd2262e637bcfa8d882f820"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Pets/PetService.cs",
+      "size": 1871,
+      "sha256": "6fcdd07ad1cfb719a33f8f8d8162dbf543914896575af3b8e6e935343f1bbd97"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Reports/ReportsEndpoints.cs",
+      "size": 618,
+      "sha256": "fa9ddb3420e7208117eb1330432638183ea791a67b5f951c8362b422b66ad234"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Reports/ReportsService.cs",
+      "size": 1845,
+      "sha256": "cc52d4683bfef7de5289ccf5f9e99a476b78cb6bca1b569a0c97b38bff0d0f81"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Shared/ModuleDb.cs",
+      "size": 8904,
+      "sha256": "26cc3ac9f21fb8ac3851a59ca9de5ba5befbd2f59c100481db8fa39e19dec82b"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Users/UsersEndpoints.cs",
+      "size": 899,
+      "sha256": "2af03bd1b71a1d3feab8844a7f5d3cfe373de2805d5f22353f538d2065d17b29"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Users/UsersRepository.cs",
+      "size": 1847,
+      "sha256": "aa0f06cf3e90961c13d8d3e49959ab4ec08a2901e6c9d8e4d41faea68b60d626"
+    },
+    {
+      "path": "backend/PawCare.Api/Modules/Users/UsersService.cs",
+      "size": 1844,
+      "sha256": "1ce6ef27662513caea77459eaab0477a447e37299d00d7ed28f2dcd383601302"
+    },
+    {
+      "path": "backend/PawCare.Api/PawCare.Api.csproj",
+      "size": 942,
+      "sha256": "c8cc085dd73549c6c6e66d781fff85f637669f648dff6388e446453070c921e4"
+    },
+    {
+      "path": "backend/PawCare.Api/Program.cs",
+      "size": 12306,
+      "sha256": "b6857aeb548698c9d88925351c0c59dcaecc2137c8be7f849b8ca02e1be59a8e"
+    },
+    {
+      "path": "backend/PawCare.Api/Security/AuthorizationPolicies.cs",
+      "size": 2096,
+      "sha256": "81a53cbc0fd7ece17d3b10dc501afa425a6b2567224115b1d67ed6f17413070d"
+    },
+    {
+      "path": "backend/PawCare.Api/Security/JwtTokenService.cs",
+      "size": 3274,
+      "sha256": "489ea9c9692e0057679d1d992466c26b02619de3faeeb5623b13cca404c39fcc"
+    },
+    {
+      "path": "backend/PawCare.Api/Security/OwnershipGuards.cs",
+      "size": 6410,
+      "sha256": "e9bd677a75e2a6d73527b5628ee79b576259e8b3d4cf29d491c5374034e9c3b1"
+    },
+    {
+      "path": "backend/PawCare.Api/Security/PasswordHasher.cs",
+      "size": 3711,
+      "sha256": "b654606f97213bdb1c3d27c94bd174cde182eaeb393ebc17d8d63d796aea63e1"
+    },
+    {
+      "path": "backend/PawCare.Api/Workers/InventoryReconcileWorker.cs",
+      "size": 12472,
+      "sha256": "6e3b870d6c83278c5d01c6cad70e899f71b591b4703b20900f8264be44d8dfa8"
+    },
+    {
+      "path": "backend/PawCare.Api/Workers/OutboxWorker.cs",
+      "size": 16635,
+      "sha256": "b15e07c26f005781de71db4456d888cf32bcf41570d2211ddaf9ab402af0adfd"
+    },
+    {
+      "path": "backend/PawCare.Api/Workers/ReminderWorker.cs",
+      "size": 8655,
+      "sha256": "b7371c203511163dd2c23cfbe39b546cd3e946ccbd6e75a49ad573250321cd63"
+    },
+    {
+      "path": "backend/PawCare.Api/appsettings.Development.json",
+      "size": 314,
+      "sha256": "2ed07e0f1ba7c0aea0c5d77543cd696b88a9e16651115575d5a307a7dc5513e0"
+    },
+    {
+      "path": "backend/PawCare.Api/appsettings.json",
+      "size": 994,
+      "sha256": "e64b2271f92547a9d418b6b41370e99e52af0724554af3722f1711906b2fece2"
+    },
+    {
+      "path": "backend/PawCare.IntegrationTests/ApiDatabaseFixture.cs",
+      "size": 5293,
+      "sha256": "f42b19e5e071d0ad8227d9f338b77364ff64a78a874c9c345e08b84955a793fa"
+    },
+    {
+      "path": "backend/PawCare.IntegrationTests/PawCare.IntegrationTests.csproj",
+      "size": 1141,
+      "sha256": "adf6d1ce37ac000962112bfe26e62b08a2f7768567c846ea1853e174dce23c2a"
+    },
+    {
+      "path": "backend/PawCare.IntegrationTests/SqlProviderParityTests.cs",
+      "size": 33976,
+      "sha256": "a3a4cf5cec90a6578a9c73f79be31ce22819204f158132dd9248aad700ce4d93"
+    },
+    {
+      "path": "database/oracle/000_create_schema.sql",
+      "size": 5129,
+      "sha256": "69e1b29368d53b4e3b726e99e63b9853e202d4bb74debc38adde01656f17a8d0"
+    },
+    {
+      "path": "database/oracle/ERD.md",
+      "size": 19005,
+      "sha256": "4611191ae7892386eb01b3b6de79ac309cb9c03cac2571aeb12863c40bec2c16"
+    },
+    {
+      "path": "database/oracle/README.md",
+      "size": 8582,
+      "sha256": "adfe1acf9a97bc4f86c538190ab7c996e295b0520ce5c85e04ee723b5dfeaf5b"
+    },
+    {
+      "path": "database/oracle/data_dictionary.md",
+      "size": 60692,
+      "sha256": "5cceacb461aeb39d414298c903057eed04b32cf47051a3718cf88d293d549375"
+    },
+    {
+      "path": "database/oracle/migrations/V001_core_care.sql",
+      "size": 18494,
+      "sha256": "8f68be4b2002e09ffc3f1cda9addc4060e2076abbdc897c72f742a674260ace7"
+    },
+    {
+      "path": "database/oracle/migrations/V002_identity_profiles.sql",
+      "size": 9038,
+      "sha256": "f538a5b34862ced190132082d9abbacf9554c5b2e1005e582b7a7042c8fd20e5"
+    },
+    {
+      "path": "database/oracle/migrations/V003_assets_notifications_audit.sql",
+      "size": 7931,
+      "sha256": "22beb79397d1a675ba5dd08e87eb6f0fce73f4d119ebe2c82e72983c9bae41a2"
+    },
+    {
+      "path": "database/oracle/migrations/V004_adoption.sql",
+      "size": 9969,
+      "sha256": "a2f1062004a9f29146cb4b29f7e0ce56d6e0d6fa33d2936d971f8b6e7545253f"
+    },
+    {
+      "path": "database/oracle/migrations/V005_donations.sql",
+      "size": 7214,
+      "sha256": "005dd7ccc1dc6064ee619d00d7c100f3afcfe179f90a9525b545139c2f5ef359"
+    },
+    {
+      "path": "database/oracle/migrations/V006_pet_marketplace.sql",
+      "size": 10256,
+      "sha256": "49b9758dbfd94ae7a97bdadb9e16ae27348cba95a7007889c29419d3c893c9ca"
+    },
+    {
+      "path": "database/oracle/migrations/V007_moderation_favorites.sql",
+      "size": 7305,
+      "sha256": "33362c2920808d4d57d50ed8b7b632de81fbee26a9b7c42e0c11c8b867069f1b"
+    },
+    {
+      "path": "database/oracle/migrations/V008_lost_found.sql",
+      "size": 9635,
+      "sha256": "37a994bfb0cb3fbc385ff51f34c138ed3f007b1164287a1826541bbf07695d3b"
+    },
+    {
+      "path": "database/oracle/migrations/V009_food_catalog_inventory.sql",
+      "size": 9277,
+      "sha256": "f883a1d8499fdbbc62ffa6931ca0aac1611c9981057516f408c77a86fbbbc335"
+    },
+    {
+      "path": "database/oracle/migrations/V010_cart_orders.sql",
+      "size": 10201,
+      "sha256": "7202b648e44d5adfaae7402dfe88f6636b7551dc5084e9d60e580e09336f21b2"
+    },
+    {
+      "path": "database/oracle/migrations/V011_payments_delivery_reviews.sql",
+      "size": 10171,
+      "sha256": "5e10241cfb49d3d66e69f20b3edf6a9fdc569e2889f13acf517250cd8250e7d3"
+    },
+    {
+      "path": "database/oracle/migrations/V012_outbox_keys_indexes.sql",
+      "size": 8771,
+      "sha256": "09682c5601188ce7177e3ecdb64f970d916b5348d65774bc5a0aac1d4f91cc5e"
+    },
+    {
+      "path": "database/oracle/queries/dashboard_summary.sql",
+      "size": 5828,
+      "sha256": "a756e85831226304514133e13520650dd4d22a3cccb86c68decbfc62020b8e16"
+    },
+    {
+      "path": "database/oracle/queries/pet_health_timeline.sql",
+      "size": 5408,
+      "sha256": "5ad8637af5f5f9beca1f02967d1b7e6bf4dc1dd5e7a24abae1cff4b497b27ed2"
+    },
+    {
+      "path": "database/oracle/queries/store_sales_summary.sql",
+      "size": 4368,
+      "sha256": "30727bb369e572b938615be78d5277e9a1232dd6af1227c5dc8a7e0740176dbf"
+    },
+    {
+      "path": "database/oracle/rollback/README.md",
+      "size": 1469,
+      "sha256": "41c5273d7d66da5cf812ed90072ede021a2131f0225b04cc03eda3aca5db981f"
+    },
+    {
+      "path": "database/oracle/rollback/migration_recovery_runbook.md",
+      "size": 8554,
+      "sha256": "695e06b8e3da7ead372dbd1db33797afdea261ee3bd1ec80887bbb4043a2841e"
+    },
+    {
+      "path": "database/oracle/rollback/preflight_read_only.sql",
+      "size": 1664,
+      "sha256": "e70508c42b889eaa06e8107ab67fc1664e8d0f6e91ccd805a04d6b96c36c250c"
+    },
+    {
+      "path": "database/oracle/rollback/verify_after_recovery.sql",
+      "size": 2006,
+      "sha256": "f4975d5225f1c6fda7128a293c4ef31df0a2833164332790d499bfd94af98e97"
+    },
+    {
+      "path": "database/oracle/seeds/001_reference_data.sql",
+      "size": 3184,
+      "sha256": "4cec5587299de13b078ba746499b7585e3eb0bf66e60ee38dbff8ca00c1bfc4a"
+    },
+    {
+      "path": "database/oracle/seeds/002_demo_data_dev_only.sql",
+      "size": 16947,
+      "sha256": "834087a0155086675c6c1c31cd30ea88816b54dfd965044cd144757c1d1d816e"
+    },
+    {
+      "path": "database/oracle/verification/verify_foreign_keys.sql",
+      "size": 16718,
+      "sha256": "fa1fd1c50651dc2da689dc6c37b28f373a7bd10b3c1294300f6c4eaee3f824f8"
+    },
+    {
+      "path": "database/oracle/verification/verify_indexes.sql",
+      "size": 18226,
+      "sha256": "a30754542bf6f9ec80ddbb35e8557df5731749141e58096ab5a190b9c193f814"
+    },
+    {
+      "path": "database/oracle/verification/verify_seed_consistency.sql",
+      "size": 10114,
+      "sha256": "4b36ecb3b4d9ef27bddb5a3ac80ae1cada36ee7c4b6514cb1a830afab2c8bd33"
+    },
+    {
+      "path": "database/oracle/verification/verify_test_target_read_only.sql",
+      "size": 1610,
+      "sha256": "56dc51f39d9e07d542fa0957191c7d63a3d2f8b9d5ea1b01c946d3237da63c57"
+    },
+    {
+      "path": "docs/DECISIONS.md",
+      "size": 1089,
+      "sha256": "111e00be0e84ac6f64503458a80662f8880c7a21252c1f939dc512f6a145a231"
+    },
+    {
+      "path": "docs/acceptance-tests.md",
+      "size": 18922,
+      "sha256": "6862ef39de1236f81021025e284f7a4716054f1da632735d671212ffdc7fb71b"
+    },
+    {
+      "path": "docs/api-contracts.md",
+      "size": 15740,
+      "sha256": "cf95173c7ecc345d82e8d53bf500a9e238ea45c673a6ad3bd4c864dcb288dc3f"
+    },
+    {
+      "path": "docs/architecture.md",
+      "size": 12104,
+      "sha256": "0398a5c2143f81685ecd271004039db4ddb75abcca87c30099e94c6958b1e3d0"
+    },
+    {
+      "path": "docs/data-dictionary.md",
+      "size": 17233,
+      "sha256": "87014adcec73d1ee45bb7372249e0e43fcb1a851e20a763ee5e2c8f010eed68c"
+    },
+    {
+      "path": "docs/deployment.md",
+      "size": 13425,
+      "sha256": "6d1edb771c158e38f65842b5b2d68be82f0b7d3e1b3fff5b61c215778aa61927"
+    },
+    {
+      "path": "docs/mobile-ux.md",
+      "size": 11600,
+      "sha256": "9a5a92bf3b36b94262fe87261633063126242675044df781f58847cddf944e4d"
+    },
+    {
+      "path": "docs/permissions-matrix.md",
+      "size": 11585,
+      "sha256": "97e4c927bf035459401ee8eec16d240ab5a677f2f40ac7e641b8eef0fec1ccd9"
+    },
+    {
+      "path": "docs/trust-and-safety.md",
+      "size": 14085,
+      "sha256": "3aeb5c9aaf1c0449808a66057c970cec59ab9f3be79204a8cb9bf75428fa5191"
+    },
+    {
+      "path": "docs/web-ux.md",
+      "size": 11047,
+      "sha256": "961d6d9550ab22125a3aa7aa47dad0ec9e1ef94fdb06aba05c1849d6df552bc1"
+    },
+    {
+      "path": "frontend/.env.example",
+      "size": 172,
+      "sha256": "051d6596ed56b25d0f76a7b20f0982c17ba7d938d5612ca8d4cf9416a5261132"
+    },
+    {
+      "path": "frontend/.gitignore",
+      "size": 103,
+      "sha256": "9a55d8d288e788ea885285ac02b182358f093e7b7e11212286c4ec38fc7120b3"
+    },
+    {
+      "path": "frontend/Dockerfile",
+      "size": 703,
+      "sha256": "6325e639c0dfffa1223349976198eb80d1b4f4a732358b793c6b2f537c769130"
+    },
+    {
+      "path": "frontend/README.md",
+      "size": 4053,
+      "sha256": "bab391df10bce93e77806892f173b2a8ee2a71e931f9ff78aef53b2a4fe1ebff"
+    },
+    {
+      "path": "frontend/VALIDATION.md",
+      "size": 2930,
+      "sha256": "d59044391464de2e28213759c1557d4e3b8eeee2ef647f9197bfaca408b357b7"
+    },
+    {
+      "path": "frontend/app/(admin)/admin/catalog/page.tsx",
+      "size": 844,
+      "sha256": "66f33595f10288033335ba8bb2d44e4739b16c4ad861622fd862cddd87960319"
+    },
+    {
+      "path": "frontend/app/(admin)/admin/inventory/page.tsx",
+      "size": 773,
+      "sha256": "7f654ba11d410a7cf0c607acd6de8757a4387e874b142533f8d6ded21df097bd"
+    },
+    {
+      "path": "frontend/app/(admin)/admin/moderation/page.tsx",
+      "size": 361,
+      "sha256": "881743ab233494ed3f8f0307ae6bf72331116988bd9356f2b680ee8a0c019c63"
+    },
+    {
+      "path": "frontend/app/(admin)/admin/orders/page.tsx",
+      "size": 735,
+      "sha256": "3b95b43def0bca73da1f8cef09d69d01103320914490f02038e0ddd040c7656f"
+    },
+    {
+      "path": "frontend/app/(admin)/admin/page.tsx",
+      "size": 184,
+      "sha256": "da814e98f32846ad7a1a20461f3464f8acecfef55a72db2a95c8058bbfa08cb8"
+    },
+    {
+      "path": "frontend/app/(admin)/admin/reports/page.tsx",
+      "size": 425,
+      "sha256": "cf99bea2dac6aaba959c6ec7237c0803678f66b3a1c0c802b517139973d8ca44"
+    },
+    {
+      "path": "frontend/app/(admin)/admin/users/page.tsx",
+      "size": 376,
+      "sha256": "b51b94dd84c7092047a61df198fe687b08b7508553749eb3dc520949064f9866"
+    },
+    {
+      "path": "frontend/app/(admin)/admin/verification/page.tsx",
+      "size": 146,
+      "sha256": "25221f0e73c06b17ef661a67e00dea28c826a8ceccba3847825e40345b71f3a9"
+    },
+    {
+      "path": "frontend/app/(admin)/layout.tsx",
+      "size": 284,
+      "sha256": "aa62c637c37261ca54e535f223a13f6d8884c8533539186ba34a2106c129d5f9"
+    },
+    {
+      "path": "frontend/app/(auth)/forgot-password/page.tsx",
+      "size": 619,
+      "sha256": "e733a2e1aa21c0887d7c8b9fdfa51de9a53aece297ba1f9538bc1cb176f3e30f"
+    },
+    {
+      "path": "frontend/app/(auth)/layout.tsx",
+      "size": 630,
+      "sha256": "4e4c7f1172e02cef41bba91d7d2b86cb441564000dcd7b99c8babe47f429343a"
+    },
+    {
+      "path": "frontend/app/(auth)/login/page.tsx",
+      "size": 161,
+      "sha256": "0dc0c355bdb897bdd8d378325b75dd69f4bb66e31406f2ca140d38dccf3932d7"
+    },
+    {
+      "path": "frontend/app/(auth)/register/page.tsx",
+      "size": 167,
+      "sha256": "b1ac8c6cc1f2682c9650557f63ed878877d073f4c52b456f6cf65233f20a3af9"
+    },
+    {
+      "path": "frontend/app/(owner)/appointments/page.tsx",
+      "size": 131,
+      "sha256": "33f227afcb1ce787611d881f8d467777ad1011ed8354d5729bdd814c95609645"
+    },
+    {
+      "path": "frontend/app/(owner)/care/page.tsx",
+      "size": 122,
+      "sha256": "bf03222c3cf5e773ae7eaaa42b67319f702d4bb3c19af09f9687487a38bf49a8"
+    },
+    {
+      "path": "frontend/app/(owner)/cart/page.tsx",
+      "size": 122,
+      "sha256": "66fb6ddbaa0f3d5ebc731388392f2d159e80301cfd69faf53a86821c875fdb1f"
+    },
+    {
+      "path": "frontend/app/(owner)/checkout/page.tsx",
+      "size": 881,
+      "sha256": "23c8ddfdfff3d05550813c0d6f36bd4643626171230557553a289cd9809d2311"
+    },
+    {
+      "path": "frontend/app/(owner)/dashboard/page.tsx",
+      "size": 171,
+      "sha256": "0638a2cd1beb7d84d0713046dbe1d8ceb55b36ae419100486c132792fb3681e3"
+    },
+    {
+      "path": "frontend/app/(owner)/expenses/page.tsx",
+      "size": 134,
+      "sha256": "ce1f79f1bc5d6068024219200dfd887029bd92c98045fea4f45db2b91890844f"
+    },
+    {
+      "path": "frontend/app/(owner)/favorites/page.tsx",
+      "size": 137,
+      "sha256": "0772ddb809e89275be3b63af3927ed76692ced432897fb9f0c334559b3687096"
+    },
+    {
+      "path": "frontend/app/(owner)/layout.tsx",
+      "size": 284,
+      "sha256": "21cda225d08269c16aee6a44d8a0c138e7e45e4f01f07afe980a5190090a1aee"
+    },
+    {
+      "path": "frontend/app/(owner)/my-adoptions/page.tsx",
+      "size": 1039,
+      "sha256": "93f8ab091bbe8b47d8a11223705ea6cfc475443ad9b4749aa3800adee33f672b"
+    },
+    {
+      "path": "frontend/app/(owner)/my-listings/page.tsx",
+      "size": 1065,
+      "sha256": "97b8df59f437bb793da3ddaee99078dec9041350294ab48f3958ac0fd9e02a77"
+    },
+    {
+      "path": "frontend/app/(owner)/my-reports/page.tsx",
+      "size": 1054,
+      "sha256": "5c8280f90051cfe9a0ba3a5ca7774bf146dc5668a5039bd66fe30a649f184236"
+    },
+    {
+      "path": "frontend/app/(owner)/notifications/page.tsx",
+      "size": 149,
+      "sha256": "1ebbe778c6970ab55cd5603b441c85f4a6be64d6f1a9f4eb20256198496a9c9a"
+    },
+    {
+      "path": "frontend/app/(owner)/orders/[id]/page.tsx",
+      "size": 1243,
+      "sha256": "aab0a247571bcbeffe5b6bcd2ae3ee26b793966f1df685d90492f56475f85f09"
+    },
+    {
+      "path": "frontend/app/(owner)/orders/page.tsx",
+      "size": 488,
+      "sha256": "035f9784d7f3c230769f94bfa051e8ef67f926c184fa99b713ad2b8fba551cfa"
+    },
+    {
+      "path": "frontend/app/(owner)/pets/[id]/page.tsx",
+      "size": 1648,
+      "sha256": "4d79d7e9c85d56229ee947aaeb6885c3533d90c24e34c34a2d99606219c006ec"
+    },
+    {
+      "path": "frontend/app/(owner)/pets/page.tsx",
+      "size": 870,
+      "sha256": "f965aad849d4c915574613553cde6a462b1f496962b5eeb72fc36928e618613a"
+    },
+    {
+      "path": "frontend/app/(owner)/profile/page.tsx",
+      "size": 131,
+      "sha256": "6f30d0a0a7f8792ec4ae7433c02c90d9ae4714e6f4409727fd2a37807372aeb8"
+    },
+    {
+      "path": "frontend/app/(public)/adopt/[id]/page.tsx",
+      "size": 2041,
+      "sha256": "cb3ec8d78e6e6c1b8e5005d86e74137f6cd4e96fbd936d852dd88cf5ae57134a"
+    },
+    {
+      "path": "frontend/app/(public)/adopt/page.tsx",
+      "size": 546,
+      "sha256": "1e378d588a7457436f3640ad7bf6dace5ca76749d6fd7d623701518855f89955"
+    },
+    {
+      "path": "frontend/app/(public)/layout.tsx",
+      "size": 413,
+      "sha256": "7dae3125382faadbb05cf299db12f3dd38c78ca0c3eddc8bdec170fc68529b34"
+    },
+    {
+      "path": "frontend/app/(public)/lost-found/[id]/page.tsx",
+      "size": 2046,
+      "sha256": "b856c10a43a9a40146c4c27fd20402968d9114bbc0581cbdf0fa5dd65ffb6438"
+    },
+    {
+      "path": "frontend/app/(public)/lost-found/page.tsx",
+      "size": 557,
+      "sha256": "11df0545dc392819c30b28a1827423a56587e04e16df6373c50e74ed94eb739c"
+    },
+    {
+      "path": "frontend/app/(public)/marketplace/[id]/page.tsx",
+      "size": 2043,
+      "sha256": "98d1438861c634515da4b8143183fa519ba4c3d65fe85d6f6cfbefc79a065bc7"
+    },
+    {
+      "path": "frontend/app/(public)/marketplace/page.tsx",
+      "size": 550,
+      "sha256": "9861b240ff0edefd012f0543efe9675da00d339c05422b24ea6c7e9a42c93042"
+    },
+    {
+      "path": "frontend/app/(public)/page.tsx",
+      "size": 3490,
+      "sha256": "09e51e35222183e7f5c13140100dded3b349ef6268b1bc4d6e9e053e96e3d732"
+    },
+    {
+      "path": "frontend/app/(public)/shop/[slug]/page.tsx",
+      "size": 2095,
+      "sha256": "7df1aed7b7324989dc89ef7be0a9aab50f984f9a462333e5f149c143d9b5543e"
+    },
+    {
+      "path": "frontend/app/(public)/shop/page.tsx",
+      "size": 550,
+      "sha256": "f81cc55257428697b253d854794a92548c21fb1073b1f5fad736b7a4e4821822"
+    },
+    {
+      "path": "frontend/app/(vet)/layout.tsx",
+      "size": 280,
+      "sha256": "39597c610995a2f475cb455ea598b4abb16e6ee9027ac7258218d4f64da73fc7"
+    },
+    {
+      "path": "frontend/app/(vet)/vet/appointments/page.tsx",
+      "size": 135,
+      "sha256": "e7a5000b1861cb4d96dce72ca4dc400d48c262010c45623d57d74973f64676e6"
+    },
+    {
+      "path": "frontend/app/(vet)/vet/page.tsx",
+      "size": 182,
+      "sha256": "ff690e2249f25454e7ffc0e5df33398b2c69f40ef6d8c4955f14be8316ed5fc3"
+    },
+    {
+      "path": "frontend/app/(vet)/vet/records/[id]/page.tsx",
+      "size": 670,
+      "sha256": "e5d9e463fb52cf7ea9d8d88e0c9a3e7ae779e963105c3c73af79a0f73036c299"
+    },
+    {
+      "path": "frontend/app/api/auth/[action]/route.ts",
+      "size": 4113,
+      "sha256": "366d08b0e97563df55d55c19b478cf5d7a1f17fd66bce6972f8879463bb44921"
+    },
+    {
+      "path": "frontend/app/api/relay/[...path]/route.ts",
+      "size": 4090,
+      "sha256": "fb941f03b621cf767b21ea27e5e8a6441e2803f8508e561d475ace41b93550f0"
+    },
+    {
+      "path": "frontend/app/error.tsx",
+      "size": 376,
+      "sha256": "30ec9b4422f3c69ef289fbe40e22b34af579a82637238a989a2b41c4468235d2"
+    },
+    {
+      "path": "frontend/app/globals.css",
+      "size": 20086,
+      "sha256": "cb9d2c19c7a9f60bfd335b32c952e0a0828bc056b8ccae8e8123438ae9522ffd"
+    },
+    {
+      "path": "frontend/app/layout.tsx",
+      "size": 468,
+      "sha256": "f21e7717d8ef0978c416a24afc6362524aa71c68e5e10909bc518c2d4e99ecff"
+    },
+    {
+      "path": "frontend/app/loading.tsx",
+      "size": 204,
+      "sha256": "69590aa611426de01bd07d366810593de3509cd96e81bc3c9116b3f0db165fa4"
+    },
+    {
+      "path": "frontend/app/not-found.tsx",
+      "size": 390,
+      "sha256": "2dea3cdb37fac61b2edb6e9bbfc23e642e7a8640b4d9775c51b118e7b25561f0"
+    },
+    {
+      "path": "frontend/components/admin/ModerationQueue.tsx",
+      "size": 2171,
+      "sha256": "b13fc4c5b40d746ebda35e529c7b690283c082f733a1a62586215a72ce859b48"
+    },
+    {
+      "path": "frontend/components/adoption/AdoptionCard.tsx",
+      "size": 696,
+      "sha256": "df58fd736e436019ef070e1b7a2b5e808b084287a6ef1f6dcc6354451a187357"
+    },
+    {
+      "path": "frontend/components/adoption/ApplicationForm.tsx",
+      "size": 577,
+      "sha256": "aa315cd13adaa55cd7887e2b493190579fd3b577a5fb466e8087bc66b40f046d"
+    },
+    {
+      "path": "frontend/components/appointments/VisitCalendar.tsx",
+      "size": 1007,
+      "sha256": "6f9354248668f1191e595e940474e1b67a67f88eb8011b5dd45d001fcf04fdb8"
+    },
+    {
+      "path": "frontend/components/features/ActionForm.tsx",
+      "size": 2844,
+      "sha256": "49a938e117cc76ec19bfb8d7c3e3a674d9871df5a1044d064638d3b5edf7058f"
+    },
+    {
+      "path": "frontend/components/features/AdoptionManagement.tsx",
+      "size": 3128,
+      "sha256": "4dada39d11fa36ef99b4e523fc431245fdde0979e50e8ebafdac8786658275dd"
+    },
+    {
+      "path": "frontend/components/features/AuthForms.tsx",
+      "size": 2962,
+      "sha256": "96ef6456553eb0d99861a3772ae415ac15a6a9f2d04e3045c7aba05eaa86591d"
+    },
+    {
+      "path": "frontend/components/features/BookingWorkspace.tsx",
+      "size": 2814,
+      "sha256": "2f624d12a4b7e5805fef142bc52d026a8d85aab650a6303283a8ab270a416e72"
+    },
+    {
+      "path": "frontend/components/features/CareWorkspace.tsx",
+      "size": 2826,
+      "sha256": "d672ef6ae4c0f6264d14f3e061e31018a27fe3f3ae56ef98f1d72ec0affad7d4"
+    },
+    {
+      "path": "frontend/components/features/CartWorkspace.tsx",
+      "size": 2506,
+      "sha256": "7e76a64f1e03a7e10cd9f19723a6eb1c5b2d6d6a4442b3d2b6256c5c354e92a8"
+    },
+    {
+      "path": "frontend/components/features/DashboardOverview.tsx",
+      "size": 3247,
+      "sha256": "c0830f8de47ff95812dad04c12525a9ded4b5992cc6bb72f5f19a56ae44f9d71"
+    },
+    {
+      "path": "frontend/components/features/ExpensesWorkspace.tsx",
+      "size": 2380,
+      "sha256": "f2956b317b779867dd37435f61af00e3aca1e89413001de071e7b76b5164426f"
+    },
+    {
+      "path": "frontend/components/features/FavoriteButton.tsx",
+      "size": 778,
+      "sha256": "7f96fa9a5f0d03230b15df7e0c47b08507e25da656fa5e4e0d80a94be5c4a98e"
+    },
+    {
+      "path": "frontend/components/features/FavoritesWorkspace.tsx",
+      "size": 1212,
+      "sha256": "67999bb07f7dd2c4c0e4885d1e8f999d76a1fd1ef7a5a16ac7fe9f03b8d2f622"
+    },
+    {
+      "path": "frontend/components/features/ListingComposer.tsx",
+      "size": 3235,
+      "sha256": "6eb8b5228171d30dac55f3959ae0a8a1451752138c1da409a6cc438f8459a031"
+    },
+    {
+      "path": "frontend/components/features/LostFoundManagement.tsx",
+      "size": 1604,
+      "sha256": "99b0d26dc5400497fe9375ffcf39cdc9b839c1808d173b556f07ee398fa1b6e7"
+    },
+    {
+      "path": "frontend/components/features/MarketplaceInquiries.tsx",
+      "size": 867,
+      "sha256": "06445f8f8be5a1518e4bf3e7607567147f791f1d142ebbffd2dd2641e6ba3b87"
+    },
+    {
+      "path": "frontend/components/features/NotificationsWorkspace.tsx",
+      "size": 1405,
+      "sha256": "7732914d31f86b3d0449fe4f49baaa4486317c223030fb3818e4cb1da0373518"
+    },
+    {
+      "path": "frontend/components/features/OrderActions.tsx",
+      "size": 713,
+      "sha256": "70c83de2f64977a17ab7c7d85e62c4f8d5299ddfb7fe2c68012b2ec7363ebff3"
+    },
+    {
+      "path": "frontend/components/features/PetProfileEditors.tsx",
+      "size": 1556,
+      "sha256": "8ff859956f88ed1701049eb876eb6e48b44371fe3d12d3d2355d0f74945d9008"
+    },
+    {
+      "path": "frontend/components/features/ProductPurchase.tsx",
+      "size": 1072,
+      "sha256": "6e747f567e183e880c7d2a67a7d4d1e59ae3cccec2e1e88c36606828a6840618"
+    },
+    {
+      "path": "frontend/components/features/ProfileWorkspace.tsx",
+      "size": 2220,
+      "sha256": "840df89c5e17d7a79a44cb44038320152005c2ed56726933a66b064678fbdada"
+    },
+    {
+      "path": "frontend/components/features/PublicBrowse.tsx",
+      "size": 2678,
+      "sha256": "bb2aa51810cac04242b58d4bda3159400e4802a6fe80597a5f834e90cd0ea2a0"
+    },
+    {
+      "path": "frontend/components/features/ReportListing.tsx",
+      "size": 841,
+      "sha256": "2ef55a813e35a28f4f98e9c71bd2ad81fd7bf577ecc48fd193624d43bfa26c4a"
+    },
+    {
+      "path": "frontend/components/features/ResourceBoard.tsx",
+      "size": 2374,
+      "sha256": "44c4e17c6e42b34570c65473e7f3d6f9f3573488ac2dfc5463ef016b78c48b74"
+    },
+    {
+      "path": "frontend/components/features/VerificationWorkspace.tsx",
+      "size": 1994,
+      "sha256": "67c5b8f73618a86dd0ed219f334cde8e122502eba7648e2f4ea00e44ba1f51ac"
+    },
+    {
+      "path": "frontend/components/layout/AppShell.tsx",
+      "size": 1507,
+      "sha256": "78df165b58fc2ffff29390d9e6aba47547b9d3cfcea9fbfba2f9fac8e5ba3567"
+    },
+    {
+      "path": "frontend/components/layout/Sidebar.tsx",
+      "size": 3020,
+      "sha256": "72b16164115b04ba03e292241e8f18866727e19c249badf448728610606b31a6"
+    },
+    {
+      "path": "frontend/components/layout/Topbar.tsx",
+      "size": 1187,
+      "sha256": "03b0f34f23ee3f71771042091c2f001723f0e1c539a449813c50c7b1db9b1d36"
+    },
+    {
+      "path": "frontend/components/lost-found/LostPetCard.tsx",
+      "size": 847,
+      "sha256": "04f29a027367a00c3d06e0a0c7bb1a20b6165c5a87aad811a9a9005280cb8849"
+    },
+    {
+      "path": "frontend/components/lost-found/SightingForm.tsx",
+      "size": 530,
+      "sha256": "de1e478bbb6f8fd5bc8378b03b3b732221e5b2bdf23169669f442da8042833ff"
+    },
+    {
+      "path": "frontend/components/marketplace/InquiryPanel.tsx",
+      "size": 510,
+      "sha256": "13f1ebfd15c5282877c2e82eb55f4cfe8116666735c757f3ddd64941eb100d6a"
+    },
+    {
+      "path": "frontend/components/marketplace/SaleListingCard.tsx",
+      "size": 865,
+      "sha256": "96c4403640c94240f37f9e932bf1888a129115ae20f7b0c0d9d7d1bd8eb62409"
+    },
+    {
+      "path": "frontend/components/pets/HealthTimeline.tsx",
+      "size": 802,
+      "sha256": "dd6ce6d4b49a2d9803bda6e42c90a50831b4958606815bbf0e5b9cecc86e5f74"
+    },
+    {
+      "path": "frontend/components/pets/PetCard.tsx",
+      "size": 605,
+      "sha256": "3bb23db6cc01c1cce9453cc9057b242753960ef6b8098c93c8129ae5ba07f465"
+    },
+    {
+      "path": "frontend/components/shop/CartSummary.tsx",
+      "size": 837,
+      "sha256": "85d7f051fcff372a284cad96a36e3821d3ad3915d5a3a54f5f004368c82cf749"
+    },
+    {
+      "path": "frontend/components/shop/CheckoutForm.tsx",
+      "size": 1788,
+      "sha256": "2ecf23af54abe7137f3c0d2104e8cb9f5ade6e121023dafd6495ace4afc4db5a"
+    },
+    {
+      "path": "frontend/components/shop/ProductCard.tsx",
+      "size": 852,
+      "sha256": "cb806c8345e01f95c0076aeaa6f29050cc321dc58b34f7398cb59561c153caab"
+    },
+    {
+      "path": "frontend/components/ui/Button.tsx",
+      "size": 479,
+      "sha256": "c5c082d06605306f697da61665ed079f088cb82da8ede67ea2f0d6978b1fe305"
+    },
+    {
+      "path": "frontend/components/ui/DataTable.tsx",
+      "size": 1630,
+      "sha256": "e1495996d3a1de04b113a0194075c8a3200cb880123d0ebfb6fee9d2afac10fb"
+    },
+    {
+      "path": "frontend/components/ui/EmptyState.tsx",
+      "size": 484,
+      "sha256": "2a4d7c2e5397ba054f5b8047876492cc1be9e8ee148fe884790f8df46eae1c33"
+    },
+    {
+      "path": "frontend/components/ui/ErrorState.tsx",
+      "size": 422,
+      "sha256": "082fd5d503c87de960a09d61c04bc7aa3d35b4e604865ef562151390e0babad7"
+    },
+    {
+      "path": "frontend/components/ui/FormField.tsx",
+      "size": 1778,
+      "sha256": "f570c6ade19311018803b189585ddcdeb86319788a48c7a4a205b707cc0d8a2e"
+    },
+    {
+      "path": "frontend/components/ui/ImageUploader.tsx",
+      "size": 1534,
+      "sha256": "1f0fcdaed3b5879c34b6dbacf2cbcec376add442a4e2f683b7700644ae7fac6b"
+    },
+    {
+      "path": "frontend/components/ui/Modal.tsx",
+      "size": 672,
+      "sha256": "ed4326fef0befc20f8157c4f7e658d4546f4d78075337245357007dd26a004de"
+    },
+    {
+      "path": "frontend/components/ui/StatusBadge.tsx",
+      "size": 583,
+      "sha256": "cfeac01329d6dbdde440f3a139237d6510c48101762f7ee224e8d3e4cdaaa255"
+    },
+    {
+      "path": "frontend/lib/api/client.ts",
+      "size": 1991,
+      "sha256": "a7c4ddf85c6060e7563650739b65df519a0e8742b1fd4bc01319dc664468d55d"
+    },
+    {
+      "path": "frontend/lib/api/errors.ts",
+      "size": 830,
+      "sha256": "d037c2005eb541e79f123bc3c79b194f7fb9f742fc7f5c6b6ee916d5bb4e237c"
+    },
+    {
+      "path": "frontend/lib/api/server.ts",
+      "size": 2034,
+      "sha256": "5474e6e9f40ff841b88c7ac9f4d749678b4768121a6aabf45899f3e83a0dfbc5"
+    },
+    {
+      "path": "frontend/lib/auth/csrf.ts",
+      "size": 431,
+      "sha256": "0dcf8bec9cdfdd4638a601e3441cf549b8120b50d9b8f2850e1b74210b988778"
+    },
+    {
+      "path": "frontend/lib/auth/permissions.ts",
+      "size": 308,
+      "sha256": "a28d824466b049beaaa061dad9b0da15434376d4307407b9bc053c5bb7f0a9ac"
+    },
+    {
+      "path": "frontend/lib/auth/session.ts",
+      "size": 1130,
+      "sha256": "6718f036d86cc01bf2ca1d4f9c045dc56426fde7ba501bec2389a96ed4215c60"
+    },
+    {
+      "path": "frontend/lib/hooks/useQueryState.ts",
+      "size": 549,
+      "sha256": "56cc2420204a195722387dba08ba1ea3ac8aa46a2d48d945580a1a5f862da3b1"
+    },
+    {
+      "path": "frontend/lib/types/domain.ts",
+      "size": 2515,
+      "sha256": "c5e9d7fb638a74cdabc5df96494016e205b3b7189e3c3705619bff3dd170023e"
+    },
+    {
+      "path": "frontend/lib/utils/currency.ts",
+      "size": 588,
+      "sha256": "01cef88d1965354468dd20f0c663a7bef1bc4e5e0c3ac49899069e5a2f0a77a5"
+    },
+    {
+      "path": "frontend/lib/validation/forms.ts",
+      "size": 644,
+      "sha256": "40c9eb5b69a3388fdfb911c5cb5701e600a1e119b608fa8d61ae9ccca396afca"
+    },
+    {
+      "path": "frontend/next-env.d.ts",
+      "size": 107,
+      "sha256": "c1dad499136dd23195791ce001171fe6b97b7d8a61be9997812fcfce96ef2e14"
+    },
+    {
+      "path": "frontend/next.config.ts",
+      "size": 517,
+      "sha256": "98fcd2d310fe53c36ea6612447bfd801bb90134ae46520a98ae93c22b4a71fc8"
+    },
+    {
+      "path": "frontend/package.json",
+      "size": 726,
+      "sha256": "fcb5ac3ab535c8bd289ef8aa2277aca3bcc9902025d35369d3bb3ae230117b5c"
+    },
+    {
+      "path": "frontend/public/images/README.md",
+      "size": 342,
+      "sha256": "ac47c4f58bb7bc71c099362a6e43fea860edbd71d578d603c9c9ad5c1f4e3087"
+    },
+    {
+      "path": "frontend/tests/components.test.tsx",
+      "size": 1102,
+      "sha256": "defee06aca797f80704437ffc42a35ced8d2144595d73d366ebe390e12dbce4c"
+    },
+    {
+      "path": "frontend/tests/routes.test.ts",
+      "size": 1922,
+      "sha256": "1a00f4869acc04e43bf3172a4c2d53a64211341da31e6431802931381f2c6723"
+    },
+    {
+      "path": "frontend/tests/setup.ts",
+      "size": 42,
+      "sha256": "3a2ad06d221892e3363b0d36be775e47ae6cfe2c991c42f69c6d6954fbe976eb"
+    },
+    {
+      "path": "frontend/tsconfig.json",
+      "size": 699,
+      "sha256": "1dd6d55f11fde8c13afcfcd4e96b45fc7fe25032f3f5961eb71c638891b25c90"
+    },
+    {
+      "path": "frontend/vitest.config.ts",
+      "size": 491,
+      "sha256": "86a4bc8b6a876a9eac7ca9eb1ce0f6038d5b7f1a6481d89359fb94013437d391"
+    },
+    {
+      "path": "global.json",
+      "size": 63,
+      "sha256": "9384d5f057ed52752aa3dc5407e75b2265495154fb3a6597afe70b79f8776f93"
+    },
+    {
+      "path": "integration/INTEGRATION_AUDIT.md",
+      "size": 6452,
+      "sha256": "15bd8beff3f273ae9e45b71df44af7b495d2f6529add1d24d14d915cc2b559d5"
+    },
+    {
+      "path": "integration/ROUND10_MOBILE_TYPECHECK_AND_SECURITY_TRIAGE.md",
+      "size": 5098,
+      "sha256": "5278aa42e1a3440057477498ec5b2c1f38009e0d571c09f7b46771bcee3fa8a2"
+    },
+    {
+      "path": "integration/ROUND11_VITEST4_JSX_CONFIG.md",
+      "size": 2538,
+      "sha256": "7a6778acdc6f964daff155d61803e2b3f36ddd4951c0798217e146b0ebb0309e"
+    },
+    {
+      "path": "integration/ROUND12_SOURCE_AUDIT_PREFLIGHT_DIAGNOSTICS.md",
+      "size": 2855,
+      "sha256": "8a6223990c6f47d9c196b7b300066fb67219431861ce3725950e9a93b41925ce"
+    },
+    {
+      "path": "integration/ROUND13_ORACLE_TEST_ENVIRONMENT_GATE.md",
+      "size": 5294,
+      "sha256": "a728f8f3aa5aee501aa89e8fe7d06ead3df01d3e21b74dfaaba556268bfb5883"
+    },
+    {
+      "path": "integration/ROUND2_AUDIT.md",
+      "size": 6044,
+      "sha256": "0cee3bf5907afcb4ebc66f2f85a1892dae1ae946f3923fc6b2655c6b5393c381"
+    },
+    {
+      "path": "integration/ROUND2_OFFLINE_PREFLIGHT.json",
+      "size": 3058,
+      "sha256": "af9a32f572838b0e2e2d007632804163e6e33f48226fb6b465ea76cbafd88324"
+    },
+    {
+      "path": "integration/ROUND3_CSHARP_BUILD_FIX.md",
+      "size": 2578,
+      "sha256": "dd5ee10230cb89168ccd28fd2c51ffd18460265f7c62b26931b59508a572baef"
+    },
+    {
+      "path": "integration/ROUND4_BUILD_FIX.md",
+      "size": 1117,
+      "sha256": "c17ece3c53fb2e8a735e170cd76917b5a9e064a613e5f1f46502b6acde80e73e"
+    },
+    {
+      "path": "integration/ROUND5_DUPLICATE_SOURCE_AUDIT.md",
+      "size": 3061,
+      "sha256": "6530e27a9481ada72b16c726d12e4a1e40a25e38e8a5213b6f567b369f128c2b"
+    },
+    {
+      "path": "integration/ROUND6_BUILD_SUCCESS_SECURITY_WARNINGS.md",
+      "size": 2853,
+      "sha256": "38d9e825bf14a6900b935ae94e1db5e25121d3200f235fdafa6524eded110f53"
+    },
+    {
+      "path": "integration/ROUND7_TEST_RUNNER.md",
+      "size": 2977,
+      "sha256": "d9360fe14f92e9a1c66692da6244d1126c2a434152d50aa9aebadbfc992d0714"
+    },
+    {
+      "path": "integration/ROUND8_CLIENT_BUILD_FIXES.md",
+      "size": 4444,
+      "sha256": "c54140f823c05e6f9329f07e339e4d128c7fc25fc64d96c510c9fb6d9a4148fb"
+    },
+    {
+      "path": "integration/ROUND9_TYPESCRIPT6_WEB_MOBILE_VALIDATION.md",
+      "size": 3567,
+      "sha256": "7aa55d06b76c9c894d5404ce71c5942e863d1cf48fd3708aa4409d049e71ad72"
+    },
+    {
+      "path": "integration/STATIC_CHECKS.json",
+      "size": 487,
+      "sha256": "8bfa58f099d234bfd56b4956936f9b20381cc2f44b784ad0feb466010227f937"
+    },
+    {
+      "path": "integration/TYPESCRIPT_SYNTAX_CHECKS.json",
+      "size": 170,
+      "sha256": "a6bf90522feca11912dc86bd83146c99cef2fba660d917678322eccc66739301"
+    },
+    {
+      "path": "mobile/.env.example",
+      "size": 295,
+      "sha256": "eff4bb531fe73c78514d0fa347e85ca313d30c39c369af2b97050ab4650ec176"
+    },
+    {
+      "path": "mobile/.gitignore",
+      "size": 79,
+      "sha256": "98869023f980492eefaa23355454636f717537d4958bae334b10490aa15ac1a0"
+    },
+    {
+      "path": "mobile/App.tsx",
+      "size": 886,
+      "sha256": "2502ec5ae16abb621432d61dc555ba625636cfe334e707058e2ffdb9d9fa4bca"
+    },
+    {
+      "path": "mobile/README.md",
+      "size": 4095,
+      "sha256": "e26568af5c4ba6b04b68a192449c06dd320ef4c6a87753b91e30b77f41bf5265"
+    },
+    {
+      "path": "mobile/VALIDATION.md",
+      "size": 2580,
+      "sha256": "726be35a3e959739de54f70fe17a30596883f611a8963061e94b288858151c30"
+    },
+    {
+      "path": "mobile/app.json",
+      "size": 1268,
+      "sha256": "1f51657c922293e9b02fe44115e5c996032a91e981c50c6c5229dde7021b908b"
+    },
+    {
+      "path": "mobile/assets/icon.png",
+      "size": 8318,
+      "sha256": "3abe40f0df100ebece0f6fd361c9e56f754e10feddf67d11a4f4390016831366"
+    },
+    {
+      "path": "mobile/assets/placeholder-pet.png",
+      "size": 3869,
+      "sha256": "7d5d7fcc4b80ad22ec99f4d5bd70d9e0b6cb766b2384e0545de238d1f6d37c3d"
+    },
+    {
+      "path": "mobile/assets/splash.png",
+      "size": 30891,
+      "sha256": "b196967aa19c234d80d57baa9784ba59349263acecdb3f98c51fd4ce90beb4bb"
+    },
+    {
+      "path": "mobile/eas.json",
+      "size": 364,
+      "sha256": "6c901f369439f40f31a989d893396fde6dd599cbbc61522b6468c265a556f06a"
+    },
+    {
+      "path": "mobile/package.json",
+      "size": 1501,
+      "sha256": "366a9dc3e77fb8d96de98fa32ae2b69118ec3d55df6f4e4b70579f980b7711ca"
+    },
+    {
+      "path": "mobile/src/components/adoption/AdoptionCard.tsx",
+      "size": 1026,
+      "sha256": "516f16d553e076f93f0b84690c4a6b9d09a91951e10de8e1a4dcccbd888c0d3d"
+    },
+    {
+      "path": "mobile/src/components/adoption/ApplicationForm.tsx",
+      "size": 583,
+      "sha256": "976b1d2bd003d43832d473a2df1b24d0fd026e31c499e3d6807ece52a06868a5"
+    },
+    {
+      "path": "mobile/src/components/appointments/VisitCalendar.tsx",
+      "size": 622,
+      "sha256": "8fe47674ed88dd6ca0474d6f27123e9609fc83ea2e6f1aeb185fd72be0b74e05"
+    },
+    {
+      "path": "mobile/src/components/lostfound/LostPetCard.tsx",
+      "size": 965,
+      "sha256": "139b0f015b113b41bfc76dde03a8762208a7972758af27e002ece3f1b0aa1b5e"
+    },
+    {
+      "path": "mobile/src/components/marketplace/InquiryPanel.tsx",
+      "size": 547,
+      "sha256": "f8e23aa43227439c2714d9639c441ba255e04f772d8c9e7c23c3b7156e3a05ac"
+    },
+    {
+      "path": "mobile/src/components/marketplace/SaleCard.tsx",
+      "size": 1178,
+      "sha256": "12b0541abfbaa12e10440868696e4aa8551c8649c3c0bbe6888cc1fba9339613"
+    },
+    {
+      "path": "mobile/src/components/media/PhotoPicker.tsx",
+      "size": 1389,
+      "sha256": "c1b6b6247731a87d7a4e1cdbd6bdbf5e3c0ff5240f1f1bdfab55b1945c3b9f24"
+    },
+    {
+      "path": "mobile/src/components/pets/PetSummaryCard.tsx",
+      "size": 981,
+      "sha256": "4670e2e4d95c61c04bf4d204ab907f117993babfa7c480afc4767844f6af671e"
+    },
+    {
+      "path": "mobile/src/components/shop/CartSummary.tsx",
+      "size": 882,
+      "sha256": "970967e257c0c0c7fed60fbc05dd27e070a648ed0539558031616e74c11a9b42"
+    },
+    {
+      "path": "mobile/src/components/shop/CheckoutForm.tsx",
+      "size": 1138,
+      "sha256": "74288ec48a51d40f2d9fcbd1934af4b308616876191cbed49a0fb5566cec6615"
+    },
+    {
+      "path": "mobile/src/components/shop/ProductCard.tsx",
+      "size": 1111,
+      "sha256": "2a29210819f59547893f9fa2dde1ad58113a18d127a2fcaa941f472e2c0ec574"
+    },
+    {
+      "path": "mobile/src/components/ui/BottomSheet.tsx",
+      "size": 1409,
+      "sha256": "0135bb306a987ccaea2e1bfce396f446f5b836f0a1c0df13abb9ce2f3d539d62"
+    },
+    {
+      "path": "mobile/src/components/ui/Button.tsx",
+      "size": 1242,
+      "sha256": "59a4085cb0b160b61b5adcada12e8e76610907467fd5a8779a29d75d8625738f"
+    },
+    {
+      "path": "mobile/src/components/ui/EmptyState.tsx",
+      "size": 950,
+      "sha256": "9cee441727e3d5d5d8cf04a673a043d5e58fdf2af3db0664c503f50c00680863"
+    },
+    {
+      "path": "mobile/src/components/ui/ErrorBanner.tsx",
+      "size": 711,
+      "sha256": "6e973de36566d0c6c2960acc09d60b8b4bb45354d9bb4886124410d77674ad80"
+    },
+    {
+      "path": "mobile/src/components/ui/Input.tsx",
+      "size": 966,
+      "sha256": "dd741d6caa3b102d7f35e02b661ad8e4b714b00714de68eb0b8484069c79eb4a"
+    },
+    {
+      "path": "mobile/src/components/ui/LoadingSkeleton.tsx",
+      "size": 487,
+      "sha256": "56ac5c5d3b9f8a2d6331a5894789099a23a1c84e734e50ceca39f474a2702052"
+    },
+    {
+      "path": "mobile/src/components/ui/Screen.tsx",
+      "size": 2559,
+      "sha256": "5e79e0f38c0ceaa9f946b833a0ee782d7f55dec1fd574cc65229e6fd3489935d"
+    },
+    {
+      "path": "mobile/src/components/ui/StatusBadge.tsx",
+      "size": 743,
+      "sha256": "9ef68ca65fa9da1b63d6512b28003df0ece6f97e75d0417289d7d71517429b5a"
+    },
+    {
+      "path": "mobile/src/lib/api/errors.ts",
+      "size": 665,
+      "sha256": "ff9f33c74b3609f6e6aebfe2d3186cc7f14849948494ae61f1f1850aa881a990"
+    },
+    {
+      "path": "mobile/src/lib/api/http.ts",
+      "size": 4648,
+      "sha256": "d6d7891109588475ffa68e0a772617dddc8df445d0aee3a81ad477b74f4c158f"
+    },
+    {
+      "path": "mobile/src/lib/api/queries.ts",
+      "size": 1263,
+      "sha256": "c38dc2aba9e7dd7d733e04f35f211ceda6a3b9187f8511fe18972bf43ab9892f"
+    },
+    {
+      "path": "mobile/src/lib/auth/AuthContext.tsx",
+      "size": 2407,
+      "sha256": "b6ae60479b7bf633b5cf198bd2eaed6e6f78239139981acb9865265acd9f6e5e"
+    },
+    {
+      "path": "mobile/src/lib/auth/secureTokens.ts",
+      "size": 744,
+      "sha256": "eb7bcb5c6e8580dea50b085349fb558d75549271bc8507171d42717ffe3f1d99"
+    },
+    {
+      "path": "mobile/src/lib/hooks/useNetworkStatus.ts",
+      "size": 344,
+      "sha256": "c49e54fa614e4420abc91b1a7204996da6ddeb3a845df1b17abcdca92b9b61f1"
+    },
+    {
+      "path": "mobile/src/lib/hooks/useNotifications.ts",
+      "size": 774,
+      "sha256": "6d421c6a720747156175f6e6cc400a266dc80c9de28b9b379bc46dc53f0dfd54"
+    },
+    {
+      "path": "mobile/src/lib/hooks/useQueryState.ts",
+      "size": 1636,
+      "sha256": "a3c203b10346ba4b7da9674f3f5fea736bb397979b267d2745fd9c5e08ebda63"
+    },
+    {
+      "path": "mobile/src/lib/media/uploads.ts",
+      "size": 629,
+      "sha256": "87cea321997a82e7949369296267b7a0cef8a26a49717c5a7b40c7a7cb8cfa80"
+    },
+    {
+      "path": "mobile/src/lib/models/domain.ts",
+      "size": 1875,
+      "sha256": "0c117fcacdd77c3cd4e6af55434eefebeafffb12ab7e052426cb4be81b1dd595"
+    },
+    {
+      "path": "mobile/src/lib/navigation/paths.ts",
+      "size": 325,
+      "sha256": "78a75779fb42296772ce85c1ea41f8071a7a853093119e805db8dcd9b97cff0e"
+    },
+    {
+      "path": "mobile/src/lib/storage/offlineCache.ts",
+      "size": 818,
+      "sha256": "f92e6f545b6b3f54108f3087063cf2d43ded03d615e9fad246c2510b3437e8dd"
+    },
+    {
+      "path": "mobile/src/lib/theme/tokens.ts",
+      "size": 312,
+      "sha256": "fdce7db62fa36e0ff547cc8911bb01c4383f2cfb8ed1979eff13e7b2f793044b"
+    },
+    {
+      "path": "mobile/src/lib/utils/date.ts",
+      "size": 462,
+      "sha256": "44cfd43ef69ba1d6fb2d75a151da319131cf45b25c5f29c16a2eca6cac33aa35"
+    },
+    {
+      "path": "mobile/src/lib/utils/money.ts",
+      "size": 713,
+      "sha256": "bebc1d9ce192d331c70fd5bc5148842c83ae1b94694d57a816c98f623ebb67d4"
+    },
+    {
+      "path": "mobile/src/lib/validation/forms.ts",
+      "size": 523,
+      "sha256": "95ab6c8d67195c0cf4cc3a748a17342e28a1b39d8abbe8d3c0cbf1a9f05a864e"
+    },
+    {
+      "path": "mobile/src/navigation/AdminNavigator.tsx",
+      "size": 1040,
+      "sha256": "078faff978dc5762fe0e6fe99a707962ea871cc2d92b3fb986500ffcb5fd0b05"
+    },
+    {
+      "path": "mobile/src/navigation/OwnerTabs.tsx",
+      "size": 1277,
+      "sha256": "b7bc1a61359f46dde2567851fefb7b52f1e4ad5796c4a3c958831ee534368486"
+    },
+    {
+      "path": "mobile/src/navigation/RootNavigator.tsx",
+      "size": 5713,
+      "sha256": "6b1f05b6f2a8cb0cc454e8806097c01a7a0b9f4fb50e9f1baa1a2a8b509e2808"
+    },
+    {
+      "path": "mobile/src/navigation/VetNavigator.tsx",
+      "size": 614,
+      "sha256": "2e1aba8e6db36dc1f13a6a0d524f9ca4c30b563515c579c31e9f4773e5c52f54"
+    },
+    {
+      "path": "mobile/src/screens/account/AccountScreen.tsx",
+      "size": 1376,
+      "sha256": "4632a1338b1840478ae2e09a1abd7d759910e2a5080a643c2b72c74c91b89f59"
+    },
+    {
+      "path": "mobile/src/screens/account/AddressesScreen.tsx",
+      "size": 2491,
+      "sha256": "47f557a1d491de58e1b97e299e20718c6a8fc5cd2d5e3b668c4b9a4a89b5f246"
+    },
+    {
+      "path": "mobile/src/screens/account/EditProfileScreen.tsx",
+      "size": 555,
+      "sha256": "4e28cb2333ba75a9bdd0bdeaba05958731e367bfe5e6a2a2532c9c9533b04642"
+    },
+    {
+      "path": "mobile/src/screens/account/SettingsScreen.tsx",
+      "size": 1012,
+      "sha256": "09e9ea47ab2d004d20c0feeb74fc122dcacc4ba53680c10dff30ac96bd8e7c6e"
+    },
+    {
+      "path": "mobile/src/screens/admin/AdminDashboardScreen.tsx",
+      "size": 1187,
+      "sha256": "ecae81a825febed9e38fe55ae873caaa10ce4ff632b69c643e1e3006f15dfbbb"
+    },
+    {
+      "path": "mobile/src/screens/admin/AdminUsersScreen.tsx",
+      "size": 238,
+      "sha256": "0fb76b99c1fde5434db3b97dd0578dc645782d192471571556fb60baab665541"
+    },
+    {
+      "path": "mobile/src/screens/admin/InventoryAdminScreen.tsx",
+      "size": 1543,
+      "sha256": "a0e85f9e7f41fb654d29bcb613194711e287718a0afe132fd2cafc4535d5613d"
+    },
+    {
+      "path": "mobile/src/screens/admin/ModerationScreen.tsx",
+      "size": 2430,
+      "sha256": "05d1ba8ab7e982c2adcb57cbb8e76034610c08d48daf94cdb1b00b36f2cafe17"
+    },
+    {
+      "path": "mobile/src/screens/admin/StoreSalesScreen.tsx",
+      "size": 271,
+      "sha256": "3cd4a7f5ce783cdbc49431cc155e75854c80397b21699ff57d13fe2617b0b9ff"
+    },
+    {
+      "path": "mobile/src/screens/adoption/AdoptionDetailsScreen.tsx",
+      "size": 1956,
+      "sha256": "667c717036a18b0b811ff92c800e82c76c8b45abe7f59642626781f3a9e18206"
+    },
+    {
+      "path": "mobile/src/screens/adoption/AdoptionListScreen.tsx",
+      "size": 382,
+      "sha256": "caf4a151b6a923fab5e9a80c34a7f4800cb9385637255292e3316b290423e891"
+    },
+    {
+      "path": "mobile/src/screens/adoption/CreateAdoptionScreen.tsx",
+      "size": 800,
+      "sha256": "09bab5b7d174011a8036a3e1f688b38304fec9c2f5144c5ed94e7ef21499f19d"
+    },
+    {
+      "path": "mobile/src/screens/adoption/MyApplicationsScreen.tsx",
+      "size": 2795,
+      "sha256": "46c3d9826da540993c8b937402b5cc26707efe4a67f915821afa48f39dff8254"
+    },
+    {
+      "path": "mobile/src/screens/auth/LoginScreen.tsx",
+      "size": 2171,
+      "sha256": "1134047ef50c6fa5da72106102e7e818046b68402f24404f9c43720780ea85e7"
+    },
+    {
+      "path": "mobile/src/screens/auth/RegisterScreen.tsx",
+      "size": 2086,
+      "sha256": "5bc5963ea0861925b4dc63593dbfdafece5a4e63110e51894bffcaacde78fd07"
+    },
+    {
+      "path": "mobile/src/screens/auth/ResetPasswordScreen.tsx",
+      "size": 679,
+      "sha256": "78fe02b4308a63ee0fd0e66bd0e36f5106aa665895cd5fc34aeb98adc3560d57"
+    },
+    {
+      "path": "mobile/src/screens/care/CareScreen.tsx",
+      "size": 2665,
+      "sha256": "a3df0df8c03558de6142858e5d9afc041d37281369339b4ad8eca5c39aff5033"
+    },
+    {
+      "path": "mobile/src/screens/care/ReminderSettingsScreen.tsx",
+      "size": 1395,
+      "sha256": "dd77a4310db4bfefb54ef19b68ee73f1ec45c6ac2559e3b1a033391fcd05dac3"
+    },
+    {
+      "path": "mobile/src/screens/care/TaskEditorScreen.tsx",
+      "size": 819,
+      "sha256": "fd3216f9472abbe2deb8c71ee01cbadb412d7a6b1228fc056ec587c40aff32a8"
+    },
+    {
+      "path": "mobile/src/screens/expenses/ExpensesScreen.tsx",
+      "size": 2864,
+      "sha256": "242f7c12f5d8ebfb40dbdac470e5c793b52c3d4c27085ead9c21ae28ae793ede"
+    },
+    {
+      "path": "mobile/src/screens/explore/ExploreScreen.tsx",
+      "size": 1594,
+      "sha256": "efe9bfa8afa896a30f5e20dbe9bcbcb26904db1759417b8f6153b80a5798149f"
+    },
+    {
+      "path": "mobile/src/screens/home/DashboardScreen.tsx",
+      "size": 2169,
+      "sha256": "2c08be3b30865526bb0e37c1d6a365bbe73d8370947a0d6519271e0929ab40d9"
+    },
+    {
+      "path": "mobile/src/screens/home/NotificationsScreen.tsx",
+      "size": 1839,
+      "sha256": "01e52cb863f7dd746922e9e059938dfdabc2c7854798f60a18237c85afb54b28"
+    },
+    {
+      "path": "mobile/src/screens/lostfound/CreateLostReportScreen.tsx",
+      "size": 939,
+      "sha256": "e2139af028cf16608e877c091ede883b5f56a6cfdfaef8471d25c1e6b5baa531"
+    },
+    {
+      "path": "mobile/src/screens/lostfound/LostFoundScreen.tsx",
+      "size": 381,
+      "sha256": "fe54d3dc4eec9da5039eb7d74ae2a14c53c4bca1fb4c13eb0d51821ee0ab708c"
+    },
+    {
+      "path": "mobile/src/screens/lostfound/LostReportDetailsScreen.tsx",
+      "size": 387,
+      "sha256": "f36b6d930e0371dbdcbff4982239f0b23472d642330e8d290717bfff2e030d29"
+    },
+    {
+      "path": "mobile/src/screens/lostfound/SightingScreen.tsx",
+      "size": 2497,
+      "sha256": "765ce751170f7f2e4ae55627c4b81bd7e98a9a452c764763778514072bf1e022"
+    },
+    {
+      "path": "mobile/src/screens/marketplace/CreateSaleListingScreen.tsx",
+      "size": 2238,
+      "sha256": "9b13dd1425c6cd2f8e8bf3614957957725fcd958f2c7ce2edbe679993587b6db"
+    },
+    {
+      "path": "mobile/src/screens/marketplace/MarketplaceScreen.tsx",
+      "size": 385,
+      "sha256": "6d56010d9b54c819d0b82944b10e0a8dbd56a5e3609e3c27f79793dcecb0365a"
+    },
+    {
+      "path": "mobile/src/screens/marketplace/MySaleListingsScreen.tsx",
+      "size": 1430,
+      "sha256": "d4c0868c93be58ef51104f4c3ee21bccca27557d61da97a3c310b6618caa5189"
+    },
+    {
+      "path": "mobile/src/screens/marketplace/SaleDetailsScreen.tsx",
+      "size": 2218,
+      "sha256": "82a52e298b9b4b339a3d7c85a8e34b8cebc54c80656c55350a82c52fa4c23c8e"
+    },
+    {
+      "path": "mobile/src/screens/pets/EditPetScreen.tsx",
+      "size": 1266,
+      "sha256": "c2edebe04a5c0bdbc9d6ccbacd460a251c413894f7f3f95fc801f1552848a272"
+    },
+    {
+      "path": "mobile/src/screens/pets/HealthTimelineScreen.tsx",
+      "size": 3212,
+      "sha256": "b02e5f9095aa48c8a891a019db16cf6b6c49258094f98128cb103df045b87335"
+    },
+    {
+      "path": "mobile/src/screens/pets/PetDetailsScreen.tsx",
+      "size": 425,
+      "sha256": "3aaea0d39a8369a35806d9902b4d1d6b917009d10d88b3caef95509aa022989b"
+    },
+    {
+      "path": "mobile/src/screens/pets/PetsScreen.tsx",
+      "size": 351,
+      "sha256": "123df141c3ad54b9528f16ec2b0288c509851b9b48887cb7bf40d5b199e39027"
+    },
+    {
+      "path": "mobile/src/screens/shared/EntityForm.tsx",
+      "size": 2995,
+      "sha256": "d304899bc0d4454c1c6fb2038b06d349620a141e5218e22f0c91fb44f42972f5"
+    },
+    {
+      "path": "mobile/src/screens/shared/ResourceDetail.tsx",
+      "size": 1546,
+      "sha256": "d505bcbc4cb0807c238d2c5420fc4e259e102bc50bcb768bbd68c9f849b68aa7"
+    },
+    {
+      "path": "mobile/src/screens/shared/ResourceList.tsx",
+      "size": 3630,
+      "sha256": "d4f80bfb994bbe728ad2628eb4920a13cb4d6ff6bbd9463a594cf3087f1288c0"
+    },
+    {
+      "path": "mobile/src/screens/shop/CartScreen.tsx",
+      "size": 2119,
+      "sha256": "d61ee282dd506e1559141fb3d1e859071face01932139e657d1baa2e88bb1110"
+    },
+    {
+      "path": "mobile/src/screens/shop/CheckoutScreen.tsx",
+      "size": 2071,
+      "sha256": "0fa9e9c6f0a7911234b67f18b6346d670482b8d7dfcc44d6497e136cff601423"
+    },
+    {
+      "path": "mobile/src/screens/shop/FoodStoreScreen.tsx",
+      "size": 363,
+      "sha256": "e6dfd00060fdade0e63c3682b9697670c44835ec6461f176dd225a83fd18d25d"
+    },
+    {
+      "path": "mobile/src/screens/shop/OrderDetailsScreen.tsx",
+      "size": 1727,
+      "sha256": "7ba7f7d7e14b0e685f3ac331b0f194ed52efefbffcabddd0682b965bb2232e8c"
+    },
+    {
+      "path": "mobile/src/screens/shop/OrdersScreen.tsx",
+      "size": 252,
+      "sha256": "4086a6ed35722f1a9c036311596eb00bf0381ccba5a73b34a9a73b61f1fe4514"
+    },
+    {
+      "path": "mobile/src/screens/shop/ProductDetailsScreen.tsx",
+      "size": 2708,
+      "sha256": "ae5905a8a63080e03ad6c7217b0097ee29621f61cd331da4a5aaba92e6cf127a"
+    },
+    {
+      "path": "mobile/src/screens/vet/VetQueueScreen.tsx",
+      "size": 265,
+      "sha256": "6895af3bb4caf44b73dd1936d0495b4d80127c45c7035e392af65b5f5939e2d9"
+    },
+    {
+      "path": "mobile/src/screens/vet/VisitNotesScreen.tsx",
+      "size": 1455,
+      "sha256": "d01500cc739b1c0794eb23c16c6c3a95638be7b989f35ca37a70349d088f4494"
+    },
+    {
+      "path": "mobile/src/screens/visits/BookVisitScreen.tsx",
+      "size": 871,
+      "sha256": "e37669f439e4d95d43f0e29979476a56fcef0b619ad4b870ee35d27180565e63"
+    },
+    {
+      "path": "mobile/src/screens/visits/VetDirectoryScreen.tsx",
+      "size": 291,
+      "sha256": "802ef8100dfe5640d0e8d9a6c0311701eff30511e3e48e7980eb74361c588c6c"
+    },
+    {
+      "path": "mobile/src/screens/visits/VisitsScreen.tsx",
+      "size": 1199,
+      "sha256": "eaa6afedcac463fc97923ab1b783461d9f5cea4c0ce4c86343ade38c5f7881b7"
+    },
+    {
+      "path": "mobile/tests/adoption.test.tsx",
+      "size": 625,
+      "sha256": "2873ecb132d490ac6bc25ef58e68bc39ed7a5e4c35393f2d2fed33a716c4a1f3"
+    },
+    {
+      "path": "mobile/tests/auth.test.tsx",
+      "size": 904,
+      "sha256": "39d5dc602613818b7101b7719ec3591b214057d303ff0553297b391ee4c18dd7"
+    },
+    {
+      "path": "mobile/tests/checkout.test.tsx",
+      "size": 972,
+      "sha256": "aa486dcdfdbc140ca91199068d3de21b77a72458572c19a69d4a7758e2661659"
+    },
+    {
+      "path": "mobile/tests/marketplace.test.tsx",
+      "size": 726,
+      "sha256": "5b14026940c38d567d3413d47155d6834057c00b52b269c48ed322055d0dce54"
+    },
+    {
+      "path": "mobile/tests/setup.ts",
+      "size": 147,
+      "sha256": "974960a65df528b03d92892bad46b892c07c2773fe02b7d55cb7b2f51a461b12"
+    },
+    {
+      "path": "mobile/tsconfig.json",
+      "size": 280,
+      "sha256": "53551d2f401f34d73f092c39e4faf299cd18cb7eb0975668c065f80bd356666d"
+    },
+    {
+      "path": "scripts/check-oracle-readiness.ps1",
+      "size": 3164,
+      "sha256": "703b9f2640dca5a29f04f5ce91f7c785b18bbd3c6fcb385ba9041152c9fa9af1"
+    },
+    {
+      "path": "scripts/csharp-canonical-manifest.json",
+      "size": 26181,
+      "sha256": "ba9d191e18caf2f496f251780fc6d02197778b836172539e5e11817f95cd37a6"
+    },
+    {
+      "path": "scripts/release-preflight.py",
+      "size": 7767,
+      "sha256": "7966c85e82dbe612522a6313f9c270d5df60901d1d409b278fcef323e2cc7854"
+    },
+    {
+      "path": "scripts/repair-duplicate-csharp.ps1",
+      "size": 5679,
+      "sha256": "5b638797abff135aded940c566a4fb708f31d56df470a80f5859d4e5908a3c2b"
+    },
+    {
+      "path": "scripts/source-audit.py",
+      "size": 6497,
+      "sha256": "4a62005fc4025342774821b5ac4b5f3d7a0a553158211929823e72d4690f8329"
+    },
+    {
+      "path": "scripts/start-api-dev.ps1",
+      "size": 1090,
+      "sha256": "86a63722ac8704a256ce34808588a81ba4447ec00a8f081c808c8900e923bf04"
+    },
+    {
+      "path": "scripts/validate-typescript.cjs",
+      "size": 2573,
+      "sha256": "e6c29805ba155513f85da5bc20e9e327ea49e13614b119f1f08b7ef90dca533a"
+    },
+    {
+      "path": "scripts/verify-windows.ps1",
+      "size": 3231,
+      "sha256": "a8212325ad49f4edc30b86102192512f537c201a5c632ffbd27adaf51533df65"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+# PawCare: CI checks for the planned .NET 10, Next.js 16, Expo, and Oracle SQL repository.
+# Bootstrap-friendly: module jobs activate when their application files exist.
+name: PawCare CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pawcare-ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  detect:
+    name: Detect modules
+    runs-on: ubuntu-latest
+    outputs:
+      backend: ${{ steps.modules.outputs.backend }}
+      frontend: ${{ steps.modules.outputs.frontend }}
+      mobile: ${{ steps.modules.outputs.mobile }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - name: Check repository scaffold
+        run: |
+          test -f .github/workflows/ci.yml
+          test -f .github/workflows/security.yml
+          test -f .github/dependabot.yml
+          git diff --check
+      - name: Verify Oracle migration checksums and project source structure
+        run: python3 scripts/source-audit.py
+      - name: Detect implemented modules
+        id: modules
+        shell: bash
+        run: |
+          if [[ -f backend/PawCare.Api/PawCare.Api.csproj ]]; then
+            echo 'backend=true' >> "$GITHUB_OUTPUT"
+          else
+            echo 'backend=false' >> "$GITHUB_OUTPUT"
+          fi
+          if [[ -f frontend/package.json ]]; then
+            echo 'frontend=true' >> "$GITHUB_OUTPUT"
+          else
+            echo 'frontend=false' >> "$GITHUB_OUTPUT"
+          fi
+          if [[ -f mobile/package.json ]]; then
+            echo 'mobile=true' >> "$GITHUB_OUTPUT"
+          else
+            echo 'mobile=false' >> "$GITHUB_OUTPUT"
+          fi
+
+  backend:
+    name: Backend / .NET 10
+    needs: detect
+    if: needs.detect.outputs.backend == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-dotnet@v6
+        with:
+          dotnet-version: '10.0.x'
+      - name: Restore API
+        run: dotnet restore backend/PawCare.Api/PawCare.Api.csproj
+      - name: Build API
+        run: dotnet build backend/PawCare.Api/PawCare.Api.csproj --configuration Release --no-restore
+      - name: Unit tests (when added)
+        shell: bash
+        run: |
+          if [[ -f backend/PawCare.Api.Tests/PawCare.Api.Tests.csproj ]]; then
+            dotnet test backend/PawCare.Api.Tests/PawCare.Api.Tests.csproj --configuration Release
+          else
+            echo 'No backend unit-test project yet; add PawCare.Api.Tests when implemented.'
+          fi
+      - name: Integration tests (when added)
+        shell: bash
+        run: |
+          if [[ -f backend/PawCare.IntegrationTests/PawCare.IntegrationTests.csproj ]]; then
+            dotnet test backend/PawCare.IntegrationTests/PawCare.IntegrationTests.csproj --configuration Release
+          else
+            echo 'No integration-test project yet; add PawCare.IntegrationTests when implemented.'
+          fi
+
+  web:
+    name: Web / Next.js 16
+    needs: detect
+    if: needs.detect.outputs.frontend == 'true'
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+          package-manager-cache: false
+      - name: Require reproducible dependency lock
+        run: test -f package-lock.json || { echo 'Missing frontend/package-lock.json'; exit 1; }
+      - name: Install dependencies
+        run: npm ci
+      - name: Lint (when configured)
+        run: npm run lint --if-present
+      - name: Type-check
+        run: |
+          if [ -f tsconfig.json ]; then npx --no-install tsc --noEmit; fi
+      - name: Run web tests
+        run: npm test
+      - name: Production build
+        run: npm run build
+
+  mobile:
+    name: Mobile / Expo
+    needs: detect
+    if: needs.detect.outputs.mobile == 'true'
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: mobile
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+          package-manager-cache: false
+      - name: Require reproducible dependency lock
+        run: test -f package-lock.json || { echo 'Missing mobile/package-lock.json'; exit 1; }
+      - name: Install dependencies
+        run: npm ci
+      - name: Type-check
+        run: |
+          if [ -f tsconfig.json ]; then npx --no-install tsc --noEmit; fi
+      - name: Run mobile tests
+        run: npm test
+      - name: Verify Android JS bundle (when entry point exists)
+        run: |
+          if [ -f App.tsx ] || [ -d app ]; then
+            npx --no-install expo export --platform android --output-dir "$RUNNER_TEMP/pawcare-expo-export"
+          else
+            echo 'Expo entry point has not been created yet.'
+          fi
+

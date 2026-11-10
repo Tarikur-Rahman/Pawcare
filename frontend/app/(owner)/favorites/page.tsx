@@ -1,0 +1,1 @@
+import {FavoritesWorkspace} from '@/components/features/FavoritesWorkspace';export default function Page(){return <FavoritesWorkspace/>;}

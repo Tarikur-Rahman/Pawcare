@@ -1,0 +1,81 @@
+{
+  "timestamp_utc": "2026-11-06T05:03:54.212733+00:00",
+  "purpose": "PawCare non-destructive static and environment preflight",
+  "source_counts": {
+    "migrations": 12,
+    "tables": 50,
+    "foreign_keys": 99,
+    "explicit_indexes": 109,
+    "public_views": 4
+  },
+  "checks": [
+    {
+      "check": "Oracle source object inventory",
+      "status": "PASS",
+      "detail": "Expected {'migrations': 12, 'tables': 50, 'foreign_keys': 99, 'explicit_indexes': 109, 'public_views': 4}; observed {'migrations': 12, 'tables': 50, 'foreign_keys': 99, 'explicit_indexes': 109, 'public_views': 4}",
+      "release_blocker": false
+    },
+    {
+      "check": "Oracle SHA-256 + project static audit",
+      "status": "PASS",
+      "detail": "Existing audit passed",
+      "release_blocker": false
+    },
+    {
+      "check": "Web/mobile TS syntax + local import audit",
+      "status": "PASS",
+      "detail": "{\n  \"frontend\": {\n    \"sourceFiles\": 112,\n    \"localImports\": 221\n  },\n  \"mobile\": {\n    \"sourceFiles\": 94,\n    \"localImports\": 388\n  },\n  \"routes\": 39,\n  \"errors\": []\n}",
+      "release_blocker": false
+    },
+    {
+      "check": "Feature modules and endpoint files",
+      "status": "PASS",
+      "detail": "22 feature folders and 22 endpoint files",
+      "release_blocker": false
+    },
+    {
+      "check": "Web page inventory",
+      "status": "PASS",
+      "detail": "39 Next.js page.tsx routes; expected 39",
+      "release_blocker": false
+    },
+    {
+      "check": "frontend npm dependency lock",
+      "status": "BLOCKED",
+      "detail": "frontend/package-lock.json missing. Run npm.cmd install in frontend/ on a connected machine.",
+      "release_blocker": true
+    },
+    {
+      "check": "mobile npm dependency lock",
+      "status": "BLOCKED",
+      "detail": "mobile/package-lock.json missing. Run npm.cmd install in mobile/ on a connected machine.",
+      "release_blocker": true
+    },
+    {
+      "check": ".NET 10 build/test runner",
+      "status": "BLOCKED",
+      "detail": ".NET SDK is not installed in this environment. Run scripts/verify-windows.ps1 on a .NET 10 host.",
+      "release_blocker": true
+    },
+    {
+      "check": "Live Oracle migration/health/integration execution",
+      "status": "NOT_RUN",
+      "detail": "Requires a separately authorized disposable Oracle PDB and integration-test opt-in.",
+      "release_blocker": true
+    },
+    {
+      "check": "Physical Android device, browser and deployment checks",
+      "status": "NOT_RUN",
+      "detail": "Requires an Android device or EAS build, real browser and deployment environment.",
+      "release_blocker": true
+    },
+    {
+      "check": "Payment and registration activation workflows",
+      "status": "INCOMPLETE",
+      "detail": "New accounts remain PENDING_VERIFICATION with no finished self-service verification; live payment gateway is disabled.",
+      "release_blocker": true
+    }
+  ],
+  "release_ready": false,
+  "note": "PASS means only the named check passed; NOT_RUN/BLOCKED are never treated as PASS."
+}

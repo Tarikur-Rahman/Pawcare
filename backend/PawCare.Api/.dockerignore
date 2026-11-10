@@ -1,0 +1,17 @@
+**/bin
+**/obj
+**/.vs
+**/.git
+**/node_modules
+**/.env
+**/.env.*
+**/*.pfx
+**/*.pem
+**/*.key
+**/*.user
+**/*.suo
+**/*.log
+**/secrets.json
+**/appsettings.Development.json
+**/appsettings.Local.json
+**/appsettings.*.local.json

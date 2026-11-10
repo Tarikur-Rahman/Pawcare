@@ -1,0 +1,1 @@
+import {CareWorkspace} from '@/components/features/CareWorkspace';export default function Page(){return <CareWorkspace/>;}

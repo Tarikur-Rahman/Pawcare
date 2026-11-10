@@ -1,0 +1,12 @@
+{
+  "frontend": {
+    "sourceFiles": 112,
+    "localImports": 221
+  },
+  "mobile": {
+    "sourceFiles": 94,
+    "localImports": 388
+  },
+  "routes": 39,
+  "errors": []
+}

@@ -1,0 +1,739 @@
+{
+  "description": "Canonical C# source paths and declarations of clean Round-4 PawCare archive. Used only to identify conflicting legacy source copies; hashes are informational.",
+  "source_zip": "PawCare_Integrated_Round4_CS1026_Fixed.zip",
+  "file_count": 93,
+  "symbol_count": 174,
+  "files": [
+    {
+      "path": "Common/ApiResult.cs",
+      "symbols": [
+        "PawCare.Api.Common.ApiResult",
+        "PawCare.Api.Common.ApiErrorResult",
+        "PawCare.Api.Common.ApiResponses"
+      ],
+      "sha256": "832b0df2a4f27231aadc52d9f7735733fa32d57747d98bd2121ccbf5b5648e01"
+    },
+    {
+      "path": "Common/DomainErrors.cs",
+      "symbols": [
+        "PawCare.Api.Common.DomainError",
+        "PawCare.Api.Common.DomainErrors",
+        "PawCare.Api.Common.DomainException"
+      ],
+      "sha256": "6afb46b89a6ed2367bb27154a5dcfaf6b0a7705418ffb73317064dad91b78e8a"
+    },
+    {
+      "path": "Common/Pagination.cs",
+      "symbols": [
+        "PawCare.Api.Common.Pagination",
+        "PawCare.Api.Common.ApiPage"
+      ],
+      "sha256": "f9908264b3b4e2233910c06bca706e71c615f46ca7ea51dd4bd46ac71ff4da83"
+    },
+    {
+      "path": "Common/Validators.cs",
+      "symbols": [
+        "PawCare.Api.Common.ValidationBag",
+        "PawCare.Api.Common.Validators",
+        "PawCare.Api.Common.IDs"
+      ],
+      "sha256": "bfd3e7ba3be0a5e63fd46e56bb17ab356cb9a37341a881d71bd19809548e950b"
+    },
+    {
+      "path": "Configuration/Options.cs",
+      "symbols": [
+        "PawCare.Api.Configuration.OracleDatabaseOptions",
+        "PawCare.Api.Configuration.PawCareJwtOptions",
+        "PawCare.Api.Configuration.PawCareCorsOptions",
+        "PawCare.Api.Configuration.PawCareRateLimitingOptions",
+        "PawCare.Api.Configuration.PawCareHealthOptions",
+        "PawCare.Api.Configuration.PawCareOpenApiOptions"
+      ],
+      "sha256": "1e52426559a840295a83a58ae9d3daec2e08a47743d3695a1c5cfe0f49cd7c1b"
+    },
+    {
+      "path": "Configuration/ServiceRegistration.cs",
+      "symbols": [
+        "PawCare.Api.Configuration.ServiceRegistration",
+        "PawCare.Api.Configuration.IOracleConnectionFactory",
+        "PawCare.Api.Configuration.OracleConnectionFactory"
+      ],
+      "sha256": "7e70599be4717d33e3506ea782ef7808c9477ad5baf594b998fbec2df58c8982"
+    },
+    {
+      "path": "Infrastructure/Clock/SystemClock.cs",
+      "symbols": [
+        "PawCare.Api.Infrastructure.Clock.ISystemClock",
+        "PawCare.Api.Infrastructure.Clock.SystemClock"
+      ],
+      "sha256": "49746b40ca88ba14ff1d17ccf5d0124abc31d0a32a5c76bbd236b755e92a59f9"
+    },
+    {
+      "path": "Infrastructure/Database/DbConnectionFactory.cs",
+      "symbols": [
+        "PawCare.Api.Infrastructure.Database.IPawCareDbConnectionFactory",
+        "PawCare.Api.Infrastructure.Database.DbConnectionFactory"
+      ],
+      "sha256": "26f70a1b7481adf9494f46c465682d156f3b45e50bae4a5953175a7ade484c21"
+    },
+    {
+      "path": "Infrastructure/Database/MigrationRunner.cs",
+      "symbols": [
+        "PawCare.Api.Infrastructure.Database.MigrationEntry",
+        "PawCare.Api.Infrastructure.Database.MigrationVerification",
+        "PawCare.Api.Infrastructure.Database.MigrationRunner"
+      ],
+      "sha256": "79bd2482b4b1b152b255bcc39d703cfbdc8232323c8f2eaaf0918860312a27c0"
+    },
+    {
+      "path": "Infrastructure/Database/ParameterizedSql.cs",
+      "symbols": [
+        "PawCare.Api.Infrastructure.Database.ParameterizedSql"
+      ],
+      "sha256": "84a0254bcab0d6a210e671c4abb5709875678a96e480ab8e19acda72a205acf6"
+    },
+    {
+      "path": "Infrastructure/Database/SqlTransactionRunner.cs",
+      "symbols": [
+        "PawCare.Api.Infrastructure.Database.ISqlTransactionRunner",
+        "PawCare.Api.Infrastructure.Database.SqlTransactionRunner"
+      ],
+      "sha256": "b4a29ca82fbc084b72e6b3bdd256e61d1ec79a8d92595d702259e1c7660f7d21"
+    },
+    {
+      "path": "Infrastructure/Email/EmailGateway.cs",
+      "symbols": [
+        "PawCare.Api.Infrastructure.Email.IEmailGateway",
+        "PawCare.Api.Infrastructure.Email.EmailMessage",
+        "PawCare.Api.Infrastructure.Email.EmailSubmission",
+        "PawCare.Api.Infrastructure.Email.EmailGateway"
+      ],
+      "sha256": "9020cee5f5b6f3d69115a456ece805243c2597a93600c388fa48830bd9bcab56"
+    },
+    {
+      "path": "Infrastructure/Notifications/PushGateway.cs",
+      "symbols": [
+        "PawCare.Api.Infrastructure.Notifications.IPushGateway",
+        "PawCare.Api.Infrastructure.Notifications.PushMessage",
+        "PawCare.Api.Infrastructure.Notifications.PushSubmissionStatus",
+        "PawCare.Api.Infrastructure.Notifications.PushSubmission",
+        "PawCare.Api.Infrastructure.Notifications.PushReceipt",
+        "PawCare.Api.Infrastructure.Notifications.ExpoPushGateway"
+      ],
+      "sha256": "dc3559cbbd9cca777665e605b5cf9ed8b3a453a3160ca7aa59f78b4590db487e"
+    },
+    {
+      "path": "Infrastructure/Payments/PaymentGateway.cs",
+      "symbols": [
+        "PawCare.Api.Infrastructure.Payments.IPaymentGateway",
+        "PawCare.Api.Infrastructure.Payments.PaymentCheckoutRequest",
+        "PawCare.Api.Infrastructure.Payments.PaymentCheckoutSession",
+        "PawCare.Api.Infrastructure.Payments.PaymentEventKind",
+        "PawCare.Api.Infrastructure.Payments.VerifiedPaymentEvent",
+        "PawCare.Api.Infrastructure.Payments.PaymentGateway",
+        "PawCare.Api.Infrastructure.Payments.PaymentGatewayUnavailableException"
+      ],
+      "sha256": "a35833de7e137ef7c34ee2752c389b5ba0c52e23cd49b9153fb68716b57eb910"
+    },
+    {
+      "path": "Infrastructure/Storage/ObjectStorage.cs",
+      "symbols": [
+        "PawCare.Api.Infrastructure.Storage.StoredObject",
+        "PawCare.Api.Infrastructure.Storage.IObjectStorage",
+        "PawCare.Api.Infrastructure.Storage.ObjectStorage"
+      ],
+      "sha256": "7337d8a894a2fa1e073601646c6ff6258aceaef119ed29e05dace56d5b5d6a9e"
+    },
+    {
+      "path": "Middleware/AuditMiddleware.cs",
+      "symbols": [
+        "PawCare.Api.Middleware.request",
+        "PawCare.Api.Middleware.AuditMiddleware"
+      ],
+      "sha256": "76e29b54d47b3e93d44f463a1c34f82ba43aa1c2a41b70ab0754c64034983fcf"
+    },
+    {
+      "path": "Middleware/ErrorHandler.cs",
+      "symbols": [
+        "PawCare.Api.Middleware.ErrorHandler"
+      ],
+      "sha256": "1b22ad754acb3951be84ca2c33912302c4b4116d513a6c9a0895e7a17e52d604"
+    },
+    {
+      "path": "Middleware/RequestIdMiddleware.cs",
+      "symbols": [
+        "PawCare.Api.Middleware.RequestIdMiddleware"
+      ],
+      "sha256": "4ca8129b2dd7c5b2e11c79d72e0a5c564a0b7c960e83736d18523223032d2408"
+    },
+    {
+      "path": "Modules/Admin/AdminEndpoints.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Admin.AdminEndpoints"
+      ],
+      "sha256": "8660cae7528818aa97fab0dcbe63ebc11acd07992c6bc92a8435f42292becfcf"
+    },
+    {
+      "path": "Modules/Admin/AdminService.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Admin.AdminActivateRequest",
+        "PawCare.Api.Modules.Admin.CapabilityGrantRequest",
+        "PawCare.Api.Modules.Admin.AdminVerifyClaim",
+        "PawCare.Api.Modules.Admin.AdminService"
+      ],
+      "sha256": "ee4624a2610fcdfbf61d5323de341e4d921aadfda6ead8508a59bc8ae29f53e7"
+    },
+    {
+      "path": "Modules/Adoption/AdoptionContracts.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Adoption.AdoptionCreate",
+        "PawCare.Api.Modules.Adoption.AdoptionApply",
+        "PawCare.Api.Modules.Adoption.AdoptionDecision",
+        "PawCare.Api.Modules.Adoption.HandoverConfirmation"
+      ],
+      "sha256": "64bed1e8e7dd8454ccb8033e0eea95abba5b5516359facac360cc038293794b2"
+    },
+    {
+      "path": "Modules/Adoption/AdoptionEndpoints.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Adoption.AdoptionEndpoints"
+      ],
+      "sha256": "891bf4a0841381ac6c477306646b54b4c61c5c3c493e200a20bc5bf69847b4ee"
+    },
+    {
+      "path": "Modules/Adoption/AdoptionRepository.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Adoption.AdoptionRepository"
+      ],
+      "sha256": "7b26204b2477de38e34180c89366609c1615ce997b57fb0b0f985efef9ee9637"
+    },
+    {
+      "path": "Modules/Adoption/AdoptionService.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Adoption.AdoptionService"
+      ],
+      "sha256": "719d6f8cc2cf834da6535f3017f8893d3bbdf436874ff6cbedd4e606f44d9d43"
+    },
+    {
+      "path": "Modules/Adoption/HandoverService.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Adoption.HandoverService"
+      ],
+      "sha256": "ddf0a3a9e4530f45073307dade236a4b31e831dcd834f10661b911278938ac57"
+    },
+    {
+      "path": "Modules/Appointments/AppointmentEndpoints.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Appointments.AppointmentEndpoints"
+      ],
+      "sha256": "ebdda304c49b38fe2ee948b98fb5fc6083b393c5693aab97257879f7d44a276a"
+    },
+    {
+      "path": "Modules/Appointments/BookingRepository.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Appointments.BookingRepository"
+      ],
+      "sha256": "a4303676cfea66ac9571882fe84183868f7ebca6fa2ab135d12cb636f33ea89e"
+    },
+    {
+      "path": "Modules/Appointments/BookingService.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Appointments.BookingRequest",
+        "PawCare.Api.Modules.Appointments.BookingService"
+      ],
+      "sha256": "adc6b47d69f40fc19e8888d02937d1740ae8c7590e99880098c95ba5bfea16bc"
+    },
+    {
+      "path": "Modules/Auth/AuthContracts.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Auth.RegisterRequest",
+        "PawCare.Api.Modules.Auth.LoginRequest",
+        "PawCare.Api.Modules.Auth.RefreshRequest",
+        "PawCare.Api.Modules.Auth.LogoutRequest",
+        "PawCare.Api.Modules.Auth.LoginResult"
+      ],
+      "sha256": "9cdcb1bae1aba45434007da61c1942e18ef157a90fd71cd13735a264e47ac5b4"
+    },
+    {
+      "path": "Modules/Auth/AuthEndpoints.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Auth.AuthEndpoints"
+      ],
+      "sha256": "044a2b5c31e4a4dfb2c66c4bcdc5663c680028c75d77c80a6b9d0a294d81f436"
+    },
+    {
+      "path": "Modules/Auth/AuthRepository.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Auth.AuthRepository"
+      ],
+      "sha256": "1c100f5b69f061f78a4c0641d5deb8315f2f9742293bd8191618e2d68148cae9"
+    },
+    {
+      "path": "Modules/Auth/AuthService.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Auth.AuthService"
+      ],
+      "sha256": "51bc3f87522509c82c43036af332b01ad2c9bf1311d7f774937debd9a5d7cacd"
+    },
+    {
+      "path": "Modules/Auth/AuthValidation.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Auth.AuthValidation"
+      ],
+      "sha256": "7997a5319d86b76d52d6a60f4049b3b6f37f1deca7067ed3f70a427e6e0a3a72"
+    },
+    {
+      "path": "Modules/Care/CareEndpoints.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Care.CareEndpoints"
+      ],
+      "sha256": "075391b2ce0cfb136eaa15c961f8f4c81fb12bf87f304ce6a642abbabf9076b7"
+    },
+    {
+      "path": "Modules/Care/CareRepository.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Care.CareRepository"
+      ],
+      "sha256": "924a5d49388b036cd7c8459dc0e92779dbab070cb0ecccd0507233e7253c59dc"
+    },
+    {
+      "path": "Modules/Care/CareService.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Care.CareTaskCreate",
+        "PawCare.Api.Modules.Care.CareService"
+      ],
+      "sha256": "1d7813457909e9191d335f4cc48aa81a590e40e921e48f52e61686ec4fdc2b47"
+    },
+    {
+      "path": "Modules/Cart/CartEndpoints.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Cart.CartEndpoints"
+      ],
+      "sha256": "b933f95694305f5fdc7cbac541ee4e658391db61475e7891d3ac2db4b05a209e"
+    },
+    {
+      "path": "Modules/Cart/CartRepository.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Cart.CartRepository"
+      ],
+      "sha256": "1dc8d50ccb9b30d1981293d3afbd1a1507439aa1fa9c98dd96cdc8b94c7354fc"
+    },
+    {
+      "path": "Modules/Cart/CartService.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Cart.CartItemSet",
+        "PawCare.Api.Modules.Cart.CartService"
+      ],
+      "sha256": "6f6aadd37c98a7b745584c3602522370ac4687748f346ebbef61084d3a15fb50"
+    },
+    {
+      "path": "Modules/Catalog/CatalogEndpoints.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Catalog.CatalogEndpoints"
+      ],
+      "sha256": "39cfc718f572d5f130d80cb5a4d6ee8f292c868737b63c764849697098135391"
+    },
+    {
+      "path": "Modules/Catalog/CatalogRepository.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Catalog.CatalogRepository"
+      ],
+      "sha256": "1613979bb5085d620a74fe8bd64b9024cd084a683df3bbd8ab75885931a4224e"
+    },
+    {
+      "path": "Modules/Catalog/CatalogService.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Catalog.ProductCreate",
+        "PawCare.Api.Modules.Catalog.CatalogService"
+      ],
+      "sha256": "987a9cfa21791d3e43a2fe8ad8cc41efa797fc733d4e07621d41ad0dca7a784d"
+    },
+    {
+      "path": "Modules/Donations/DonationEndpoints.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Donations.DonationEndpoints"
+      ],
+      "sha256": "61d3f5ed0a83e590163846ae9e0a38f4700e9e0fb0e62fad32caee35500bb9bb"
+    },
+    {
+      "path": "Modules/Donations/DonationRepository.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Donations.DonationRepository"
+      ],
+      "sha256": "1b257c587f47c5257b2bd604dc6b268a7aac115fe676cdf0849131012dcf0d54"
+    },
+    {
+      "path": "Modules/Donations/DonationService.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Donations.DonationCampaignCreate",
+        "PawCare.Api.Modules.Donations.DonationService"
+      ],
+      "sha256": "b939298f49a91561ab9741d1f39c56cb9b2c3ccbd184ac7fcb3dce58fd63ff90"
+    },
+    {
+      "path": "Modules/Expenses/ExpenseEndpoints.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Expenses.ExpenseEndpoints"
+      ],
+      "sha256": "192bf2eb488f0f5679c5d94bcdd80df98a59efa411a2385e37c33bfbd0ee0f6f"
+    },
+    {
+      "path": "Modules/Expenses/ExpenseRepository.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Expenses.ExpenseRepository"
+      ],
+      "sha256": "5faa09db214a827d5791554472cf2b539c8b6db3edf542d50b95535120ea4c2c"
+    },
+    {
+      "path": "Modules/Expenses/ExpenseService.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Expenses.ExpenseCreate",
+        "PawCare.Api.Modules.Expenses.ExpenseService"
+      ],
+      "sha256": "9e3230ba12dd80836e6c6139726bd85f98c66553ec849e55de868108ed40126e"
+    },
+    {
+      "path": "Modules/Fulfillment/FulfillmentService.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Fulfillment.ShipmentCreate",
+        "PawCare.Api.Modules.Fulfillment.FulfillmentService"
+      ],
+      "sha256": "7617679def0a5a0b6b13acf3a50943c17b4cc075b2648e781d1bb29caac3979a"
+    },
+    {
+      "path": "Modules/Fulfillment/ShipmentEndpoints.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Fulfillment.ShipmentEndpoints"
+      ],
+      "sha256": "b740b369963771a2bfee36c14b623406107ee35ff3f01a8d8a67f13b4f45525c"
+    },
+    {
+      "path": "Modules/Inventory/InventoryEndpoints.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Inventory.InventoryEndpoints"
+      ],
+      "sha256": "7a35b3935974381a8e43a21a4639f32449f73dd349c4ba87b1fd8b23d20c8ca2"
+    },
+    {
+      "path": "Modules/Inventory/InventoryRepository.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Inventory.InventoryRepository"
+      ],
+      "sha256": "18512c9253559ffd86db2c2ba7dc918a56fb85cc35536353a49d2502cbc172f9"
+    },
+    {
+      "path": "Modules/Inventory/InventoryService.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Inventory.InventoryAdjustment",
+        "PawCare.Api.Modules.Inventory.InventoryService"
+      ],
+      "sha256": "1777b5948630db0019d0cbe9d66e6e0ee981795f9aee1bce07a605c3d95a8acc"
+    },
+    {
+      "path": "Modules/LostFound/LostFoundEndpoints.cs",
+      "symbols": [
+        "PawCare.Api.Modules.LostFound.LostFoundEndpoints"
+      ],
+      "sha256": "c8fb553839db5f18b851de716fcf3c1984a24edabac9d697ad7b6d5b0b2593ee"
+    },
+    {
+      "path": "Modules/LostFound/LostFoundRepository.cs",
+      "symbols": [
+        "PawCare.Api.Modules.LostFound.LostFoundRepository"
+      ],
+      "sha256": "f3f8bdf0c3f4c3de332a482edbd477e843bf8672b075921fbc329e20c79a3f6b"
+    },
+    {
+      "path": "Modules/LostFound/LostFoundService.cs",
+      "symbols": [
+        "PawCare.Api.Modules.LostFound.LostPostCreate",
+        "PawCare.Api.Modules.LostFound.SightingCreate",
+        "PawCare.Api.Modules.LostFound.ReunionClaimCreate",
+        "PawCare.Api.Modules.LostFound.LostFoundService"
+      ],
+      "sha256": "c061c00300133d1b720f81e4998b3388946b7fdfa2b1f20190066cd669fe7bb3"
+    },
+    {
+      "path": "Modules/Marketplace/MarketplaceEndpoints.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Marketplace.MarketplaceEndpoints"
+      ],
+      "sha256": "b0e0a855e6d67d131840fa1ea38641d33be3385207c5458f9b8c632bf7993d71"
+    },
+    {
+      "path": "Modules/Marketplace/MarketplaceRepository.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Marketplace.MarketplaceRepository"
+      ],
+      "sha256": "9591f98f84d548f1d3f572fdd97fc034cb8850debd935ed256c80f949b745324"
+    },
+    {
+      "path": "Modules/Marketplace/MarketplaceService.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Marketplace.SaleDraft",
+        "PawCare.Api.Modules.Marketplace.SaleInquiry",
+        "PawCare.Api.Modules.Marketplace.MarketplaceService"
+      ],
+      "sha256": "810af1033e9711562b999765bd613b967a476122181558d48e258e82ed99bdc5"
+    },
+    {
+      "path": "Modules/Marketplace/SellerVerificationService.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Marketplace.SellerVerificationService"
+      ],
+      "sha256": "709acdf1322520308bb65239d1ee1eb5c1461f5c42a02cb62ce3ce932318b057"
+    },
+    {
+      "path": "Modules/Media/MediaEndpoints.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Media.MediaEndpoints"
+      ],
+      "sha256": "caf8d564083d64133723bf86e45c7f85e6baafdd3bb1efb323138b296308e7d9"
+    },
+    {
+      "path": "Modules/Media/MediaService.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Media.MediaService"
+      ],
+      "sha256": "c0ad31a3a89849c128e116e9b7ea829fa023c4b07a6707d285c717772af225c3"
+    },
+    {
+      "path": "Modules/Medical/MedicalEndpoints.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Medical.MedicalEndpoints"
+      ],
+      "sha256": "eb4be76d377e6f3060298c0016094b8cc5b40a5eccc25daf15aa88b9c7de4b30"
+    },
+    {
+      "path": "Modules/Medical/MedicalRepository.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Medical.MedicalRepository"
+      ],
+      "sha256": "430b4816cf1b83d3d16f0ae6123c91e22a8f00900daa39f8dd4bc192110f42b2"
+    },
+    {
+      "path": "Modules/Medical/MedicalService.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Medical.VaccineCreate",
+        "PawCare.Api.Modules.Medical.MedicationCreate",
+        "PawCare.Api.Modules.Medical.MedicalService"
+      ],
+      "sha256": "53fdc808e4bdfe0da2e7a4669b2680d39282bfe92e170efe33540a1908d6ca5a"
+    },
+    {
+      "path": "Modules/Moderation/ModerationEndpoints.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Moderation.ModerationEndpoints"
+      ],
+      "sha256": "4b03b8bb21dc8dc9bf7af33713114aedd9c33dfbd6c3d96d9097797b7da711da"
+    },
+    {
+      "path": "Modules/Moderation/ModerationService.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Moderation.ReportListing",
+        "PawCare.Api.Modules.Moderation.ReviewDecision",
+        "PawCare.Api.Modules.Moderation.FavoriteCreate",
+        "PawCare.Api.Modules.Moderation.ModerationService"
+      ],
+      "sha256": "6cdfe3a59f1229aa4e64fad01e1f931ccce59e513d8c6e51154f2d0b183db4c8"
+    },
+    {
+      "path": "Modules/ModuleRegistration.cs",
+      "symbols": [
+        "PawCare.Api.Modules.ModuleRegistration"
+      ],
+      "sha256": "09570934c5135e5d5a2e2b87ac6c59eddaebce571c02d453dfc064d0f86744b5"
+    },
+    {
+      "path": "Modules/Notifications/NotificationEndpoints.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Notifications.NotificationEndpoints"
+      ],
+      "sha256": "c5fa09703489dbe983455e87810df4b80c6b750ec15f7d40dbf89e1979a0eb14"
+    },
+    {
+      "path": "Modules/Notifications/NotificationService.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Notifications.NotificationService"
+      ],
+      "sha256": "9c038c79edf6c648cb0945866ac13e86028aec7478f9d16b0af8ae3c0648b8c0"
+    },
+    {
+      "path": "Modules/Orders/CheckoutService.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Orders.CheckoutRequest",
+        "PawCare.Api.Modules.Orders.CheckoutService"
+      ],
+      "sha256": "9bdc8fea2fbcd4b09e88f58e7829cf454e9425506c262c2cdbe63d0bbf965423"
+    },
+    {
+      "path": "Modules/Orders/OrderEndpoints.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Orders.OrderEndpoints"
+      ],
+      "sha256": "8bd50376f14b327bf04eac76ee04b42ef6c2d8c339d9b1a13db0b14f0f8abaac"
+    },
+    {
+      "path": "Modules/Orders/OrderRepository.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Orders.OrderRepository"
+      ],
+      "sha256": "e3c027bc8b7c320f3b41f3611dbc7dbaeee3fa4e6dcd51f2e0560933ac9dd4a1"
+    },
+    {
+      "path": "Modules/Payments/PaymentEndpoints.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Payments.PaymentEndpoints"
+      ],
+      "sha256": "4c8d7590ff620f1542582f3c4ceee34daed0a945a6b34ac08850810d86a8b839"
+    },
+    {
+      "path": "Modules/Payments/PaymentService.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Payments.StartPaymentRequest",
+        "PawCare.Api.Modules.Payments.PaymentService"
+      ],
+      "sha256": "efc4dc32aa1868d23c6f8e30ffedb2564ddfc15831f42bae71d79135e39c1ff8"
+    },
+    {
+      "path": "Modules/Payments/WebhookVerifier.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Payments.WebhookVerifier"
+      ],
+      "sha256": "a951d8e7972782fdd2eb232e910a648a5925a4c1fe82a42a43d69744a39d003e"
+    },
+    {
+      "path": "Modules/Pets/PetEndpoints.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Pets.PetEndpoints"
+      ],
+      "sha256": "da911fe51764c0b7eaef9cc9ff0b82f2453c4174b91081cdce2ba3b90cc9fa14"
+    },
+    {
+      "path": "Modules/Pets/PetRepository.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Pets.PetRepository"
+      ],
+      "sha256": "9a52bbcc750cf128914754029c4dbab3cba2ed0dfcd2262e637bcfa8d882f820"
+    },
+    {
+      "path": "Modules/Pets/PetService.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Pets.PetCreate",
+        "PawCare.Api.Modules.Pets.PetEdit",
+        "PawCare.Api.Modules.Pets.PetService"
+      ],
+      "sha256": "6fcdd07ad1cfb719a33f8f8d8162dbf543914896575af3b8e6e935343f1bbd97"
+    },
+    {
+      "path": "Modules/Reports/ReportsEndpoints.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Reports.ReportsEndpoints"
+      ],
+      "sha256": "fa9ddb3420e7208117eb1330432638183ea791a67b5f951c8362b422b66ad234"
+    },
+    {
+      "path": "Modules/Reports/ReportsService.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Reports.ReportsService"
+      ],
+      "sha256": "cc52d4683bfef7de5289ccf5f9e99a476b78cb6bca1b569a0c97b38bff0d0f81"
+    },
+    {
+      "path": "Modules/Shared/ModuleDb.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Shared.ModuleDb",
+        "PawCare.Api.Modules.Shared.ModuleRules"
+      ],
+      "sha256": "8a568ce5e8cc0f3cc420a1ba4773faa054574831e6bc878824dab071dfddc2bc"
+    },
+    {
+      "path": "Modules/Users/UsersEndpoints.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Users.UsersEndpoints"
+      ],
+      "sha256": "2af03bd1b71a1d3feab8844a7f5d3cfe373de2805d5f22353f538d2065d17b29"
+    },
+    {
+      "path": "Modules/Users/UsersRepository.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Users.UsersRepository"
+      ],
+      "sha256": "aa0f06cf3e90961c13d8d3e49959ab4ec08a2901e6c9d8e4d41faea68b60d626"
+    },
+    {
+      "path": "Modules/Users/UsersService.cs",
+      "symbols": [
+        "PawCare.Api.Modules.Users.ProfileUpdate",
+        "PawCare.Api.Modules.Users.AddressCreate",
+        "PawCare.Api.Modules.Users.UsersService"
+      ],
+      "sha256": "1ce6ef27662513caea77459eaab0477a447e37299d00d7ed28f2dcd383601302"
+    },
+    {
+      "path": "Program.cs",
+      "symbols": [],
+      "sha256": "b6857aeb548698c9d88925351c0c59dcaecc2137c8be7f849b8ca02e1be59a8e"
+    },
+    {
+      "path": "Security/AuthorizationPolicies.cs",
+      "symbols": [
+        "PawCare.Api.Security.AuthorizationPolicies"
+      ],
+      "sha256": "81a53cbc0fd7ece17d3b10dc501afa425a6b2567224115b1d67ed6f17413070d"
+    },
+    {
+      "path": "Security/JwtTokenService.cs",
+      "symbols": [
+        "PawCare.Api.Security.IssuedAccessToken",
+        "PawCare.Api.Security.IJwtTokenService",
+        "PawCare.Api.Security.does",
+        "PawCare.Api.Security.JwtTokenService"
+      ],
+      "sha256": "489ea9c9692e0057679d1d992466c26b02619de3faeeb5623b13cca404c39fcc"
+    },
+    {
+      "path": "Security/OwnershipGuards.cs",
+      "symbols": [
+        "PawCare.Api.Security.IOwnershipGuards",
+        "PawCare.Api.Security.OwnershipGuards"
+      ],
+      "sha256": "e9bd677a75e2a6d73527b5628ee79b576259e8b3d4cf29d491c5374034e9c3b1"
+    },
+    {
+      "path": "Security/PasswordHasher.cs",
+      "symbols": [
+        "PawCare.Api.Security.PasswordVerificationOutcome",
+        "PawCare.Api.Security.IPawCarePasswordHasher",
+        "PawCare.Api.Security.PasswordHasher"
+      ],
+      "sha256": "b654606f97213bdb1c3d27c94bd174cde182eaeb393ebc17d8d63d796aea63e1"
+    },
+    {
+      "path": "Workers/InventoryReconcileWorker.cs",
+      "symbols": [
+        "PawCare.Api.Workers.InventoryReconcileWorker",
+        "PawCare.Api.Workers.ReservedLine"
+      ],
+      "sha256": "6e3b870d6c83278c5d01c6cad70e899f71b591b4703b20900f8264be44d8dfa8"
+    },
+    {
+      "path": "Workers/OutboxWorker.cs",
+      "symbols": [
+        "PawCare.Api.Workers.OutboxWorker",
+        "PawCare.Api.Workers.OutboxItem",
+        "PawCare.Api.Workers.ReminderPayload",
+        "PawCare.Api.Workers.EmailPayload"
+      ],
+      "sha256": "b15e07c26f005781de71db4456d888cf32bcf41570d2211ddaf9ab402af0adfd"
+    },
+    {
+      "path": "Workers/ReminderWorker.cs",
+      "symbols": [
+        "PawCare.Api.Workers.ReminderWorker",
+        "PawCare.Api.Workers.ReminderCandidate"
+      ],
+      "sha256": "b7371c203511163dd2c23cfbe39b546cd3e946ccbd6e75a49ad573250321cd63"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+import {ModerationQueue} from '@/components/admin/ModerationQueue';
+export default function Page(){return <section className="page-section"><div className="page-heading"><div><span className="eyebrow">TRUST & SAFETY</span><h1>Moderation queue</h1><p>Review reports, protect animal welfare, and apply safe decisions.</p></div></div><ModerationQueue/></section>;}

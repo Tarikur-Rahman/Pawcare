@@ -1,0 +1,4 @@
+import React from 'react';import {View,Text,Pressable,StyleSheet} from 'react-native';
+import {Pet} from '../../lib/models/domain';import {t} from '../../lib/theme/tokens';
+export function PetSummaryCard({pet,onPress}:{pet:Pet;onPress:()=>void}){return <Pressable onPress={onPress} style={s.card} accessibilityRole="button"><View style={s.icon}><Text style={{fontSize:25}}>🐾</Text></View><View style={{flex:1}}><Text style={s.title}>{pet.name}</Text><Text style={s.subtitle}>{pet.species}{pet.breed?` · ${pet.breed}`:''}</Text></View><Text style={{fontSize:21,color:t.muted}}>›</Text></Pressable>}
+const s=StyleSheet.create({card:{flexDirection:'row',alignItems:'center',gap:12,backgroundColor:t.paper,padding:14,borderWidth:1,borderColor:t.border,borderRadius:17},icon:{backgroundColor:t.tint,width:53,height:53,borderRadius:16,alignItems:'center',justifyContent:'center'},title:{color:t.ink,fontSize:16,fontWeight:'800'},subtitle:{color:t.muted,fontSize:12,marginTop:4}});
