@@ -1,0 +1,3 @@
+import Link from 'next/link';
+import {PawPrint} from 'lucide-react';
+export function EmptyState({title='Nothing here yet',description='New items will appear here as they become available.',href,action}:{title?:string;description?:string;href?:string;action?:string}){return <div className="empty-state"><div className="empty-icon"><PawPrint size={28}/></div><h3>{title}</h3><p>{description}</p>{href&&<Link href={href} className="btn btn-secondary">{action||'Explore'}</Link>}</div>;}

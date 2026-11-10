@@ -1,0 +1,7 @@
+ 'use client';
+import {useState} from 'react';
+import Link from 'next/link';
+import {Menu,Bell,Search,PanelLeftClose} from 'lucide-react';
+import {Sidebar} from './Sidebar';
+import type {Role,User} from '@/lib/types/domain';
+export function AppShell({user,area,children}:{user:User;area:'owner'|'vet'|'admin';children:React.ReactNode}){const [open,setOpen]=useState(false);return <div className="app-shell"><div className={`sidebar-overlay ${open?'visible':''}`} onClick={()=>setOpen(false)}/><div className={`sidebar-wrap ${open?'show':''}`}><Sidebar role={user.role as Role} onNavigate={()=>setOpen(false)}/></div><div className="main-wrap"><header className="workspace-topbar"><button className="icon-button mobile-only" onClick={()=>setOpen(!open)} aria-label="Open workspace navigation"><Menu/></button><div className="workspace-greeting"><span className="eyebrow">{area==='admin'?'ADMINISTRATION':area==='vet'?'VETERINARY WORKSPACE':'YOUR PAWCARE SPACE'}</span><strong>Welcome back, {user.displayName.split(' ')[0]}</strong></div><div className="topbar-right"><Link className="icon-button" href={area==='owner'?'/notifications':'/'} aria-label="Notifications or home"><Bell size={20}/></Link><div className="avatar" aria-label={`Signed in as ${user.displayName}`}>{user.displayName.charAt(0).toUpperCase()}</div></div></header><main id="main-content" className="workspace-body">{children}</main><footer className="workspace-footer">PawCare · Protecting animals and their people</footer></div></div>;}

@@ -1,0 +1,3 @@
+'use client';
+import {ResourceBoard,columnsFrom} from '@/components/features/ResourceBoard';
+export default function Page(){return <ResourceBoard title="Inventory control" subtitle="Review stock and record auditable adjustments." path="/admin/inventory" columns={columnsFrom([['productId','Product ID'],['onHandQty','On hand'],['reservedQty','Reserved'],['availableQuantity','Available']])} form={{title:'Adjust stock',path:'/admin/inventory/adjust',fields:[{name:'productId',label:'Product ID',type:'number',required:true,min:1},{name:'quantityDelta',label:'Quantity change (negative to remove)',type:'number',required:true},{name:'reason',label:'Reason',required:true,type:'select',options:['RESTOCK','ADJUSTMENT','RETURN','WRITE_OFF'].map(x=>({value:x,label:x}))}]}}/>;}

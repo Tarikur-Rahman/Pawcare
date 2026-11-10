@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "PawCare",
+    "slug": "pawcare",
+    "scheme": "pawcare",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F4F7F4"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pawcare.mobile",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Choose photos of pets to upload for review."
+      }
+    },
+    "android": {
+      "package": "com.pawcare.mobile",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#F4F7F4"
+      },
+      "permissions": [
+        "INTERNET"
+      ]
+    },
+    "plugins": [
+      "expo-secure-store",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow PawCare to choose pet photos."
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "color": "#157C62",
+          "enableRemoteNotifications": true
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "REPLACE_WITH_YOUR_EAS_PROJECT_ID"
+      }
+    },
+    "experiments": {
+      "tsconfigPaths": true
+    }
+  }
+}

@@ -1,0 +1,3 @@
+const good=new Set(['ACTIVE','PUBLISHED','APPROVED','COMPLETED','PAID','DELIVERED','REUNITED','ACCEPTED','VERIFIED','SAFE']);
+const warn=new Set(['PENDING','PENDING_REVIEW','PENDING_VERIFICATION','DRAFT','SUBMITTED','OPEN','UNPAID','AWAITING_OTHER_PARTY','PROCESSING','AWAITING_PAYMENT']);
+export function StatusBadge({status}:{status:unknown}){const text=String(status||'Unknown').replace(/_/g,' ').toLowerCase();const upper=String(status||'').toUpperCase();return <span className={`badge ${good.has(upper)?'badge-green':warn.has(upper)?'badge-amber':'badge-gray'}`}>{text}</span>;}

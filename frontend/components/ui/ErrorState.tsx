@@ -1,0 +1,3 @@
+ 'use client';
+import {AlertCircle} from 'lucide-react';
+export function ErrorState({message='We could not load this information.',onRetry}:{message?:string;onRetry?:()=>void}){return <div className="error-state" role="alert"><AlertCircle size={22}/><div><strong>Something needs attention</strong><p>{message}</p></div>{onRetry&&<button type="button" className="btn btn-secondary" onClick={onRetry}>Retry</button>}</div>;}

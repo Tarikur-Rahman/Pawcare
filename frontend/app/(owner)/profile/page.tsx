@@ -1,0 +1,1 @@
+import {ProfileWorkspace} from '@/components/features/ProfileWorkspace';export default function Page(){return <ProfileWorkspace/>;}

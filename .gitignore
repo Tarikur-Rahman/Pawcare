@@ -1,0 +1,38 @@
+.expo/
+node_modules/
+.env
+.env.local
+.env.*.local
+coverage/
+dist/
+build/
+*.log
+
+# PawCare - generated files
+**/bin/
+**/obj/
+**/node_modules/
+**/.next/
+**/.expo/
+**/.turbo/
+**/coverage/
+**/TestResults/
+*.tsbuildinfo
+
+# Local configuration and credentials
+**/.env
+**/.env.*
+!**/.env.example
+**/appsettings.Development.json
+**/appsettings.*.local.json
+*.pfx
+*.p12
+*.pem
+*.key
+
+# Temporary files
+*.log
+*.tmp
+
+# Legacy nested project copy
+/PawCare/

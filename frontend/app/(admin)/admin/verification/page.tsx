@@ -1,0 +1,1 @@
+import {VerificationWorkspace} from '@/components/features/VerificationWorkspace';export default function Page(){return <VerificationWorkspace/>;}

@@ -1,0 +1,2 @@
+import {Topbar} from '@/components/layout/Topbar';
+export default function Layout({children}:{children:React.ReactNode}){return <><Topbar/><main id="main-content">{children}</main><footer className="site-footer"><div className="container footer-inner"><span>🐾 PawCare · Care for every companion.</span><span>Animal welfare first · Never share private contact information publicly.</span></div></footer></>; }

@@ -1,0 +1,1 @@
+import {NotificationsWorkspace} from '@/components/features/NotificationsWorkspace';export default function Page(){return <NotificationsWorkspace/>;}

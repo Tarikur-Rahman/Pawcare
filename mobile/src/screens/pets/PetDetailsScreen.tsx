@@ -1,0 +1,2 @@
+import React from 'react';import {ResourceDetail} from '../shared/ResourceDetail';
+export default function PetDetailsScreen(){return <ResourceDetail title="Pet profile" path="/pets/:id" description="Private profile and ownership details." actions={[{label:'View health timeline',route:'HealthTimeline'},{label:'Edit pet profile',route:'EditPet'},{label:'Care & tasks',route:'Care'},{label:'Appointments',route:'Visits'}]}/>}

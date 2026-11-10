@@ -1,0 +1,2 @@
+ 'use client';
+export default function ErrorBoundary({reset}:{error:Error&{digest?:string};reset:()=>void}){return <main id="main-content" className="center-screen"><p className="eyebrow">SOMETHING WENT WRONG</p><h1>That didn't go as planned.</h1><p>Your information is safe. Please try again.</p><button className="btn btn-primary" onClick={reset}>Try again</button></main>;}

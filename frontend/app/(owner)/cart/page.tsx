@@ -1,0 +1,1 @@
+import {CartWorkspace} from '@/components/features/CartWorkspace';export default function Page(){return <CartWorkspace/>;}
